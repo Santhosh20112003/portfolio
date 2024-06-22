@@ -1,0 +1,27 @@
+.huge {
+  font-family: "Tiny5", sans-serif;
+}
+
+.vertical {
+  font-family: "Archivo Black", sans-serif;
+  writing-mode: tb-rl;
+  text-orientation: use-glyph-orientation;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #82a9ec;
+  width: fit-content;
+  color: #203354;
+}
+
+.mySwiper{
+    mask-image: linear-gradient(to left, transparent,white, white,transparent);
+}
+
+@media (max-width: 768px) {
+    .vertical {
+        -webkit-text-stroke-width: 1px; /* Adjust the value as needed for mobile screens */
+    }
+
+    .mySwiper{
+        mask-image: none;
+    }
+}
