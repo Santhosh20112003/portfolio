@@ -16,6 +16,10 @@
     mask-image: linear-gradient(to left, transparent,white, white,transparent);
 }
 
+.pdf{
+  mask-image: linear-gradient(to bottom, white, white,white,transparent);
+}
+
 @media (max-width: 768px) {
     .vertical {
         -webkit-text-stroke-width: 1px; /* Adjust the value as needed for mobile screens */
