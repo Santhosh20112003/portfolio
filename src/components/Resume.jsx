@@ -1,5 +1,7 @@
 import React from "react";
 import Header from "./HomeComponents/Header";
+import { Viewer, Worker } from "@react-pdf-viewer/core";
+import "@react-pdf-viewer/core/lib/styles/index.css";
 import "./css/shine.css";
 
 function Resume() {
@@ -12,18 +14,11 @@ function Resume() {
         <h1 className="text-2xl pt-6 text-center capitalize leading-snug md:text-4xl text-white">
           My resume showcases my professionalism and allure ❤️
         </h1>
-        <object
-          data={require("../asserts/resume.pdf")}
-          type="application/pdf"
-          className="w-full pdf max-w-5xl rounded-xl border-4 bg-white border-white h-[550px]"
-        >
-          <p>
-            Alternative text - include a link{" "}
-            <a href="http://africau.edu/images/default/sample.pdf">
-              to the PDF!
-            </a>
-          </p>
-        </object>
+        <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js">
+          <div className="w-full pdf max-w-5xl rounded-xl border-4 bg-white border-white h-[550px]">
+            <Viewer  fileUrl={require("../asserts/resume.pdf")} />
+          </div>
+        </Worker>
       </div>
     </div>
   );
