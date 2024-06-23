@@ -1,8 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Links } from "../../common/Links";
 
 function Footer() {
+  const location = useLocation();
   return (
     <footer class="w-full bg-[#203354]">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -13,7 +14,14 @@ function Footer() {
           <ul class="text-lg text-center sm:flex items-cente justify-center gap-14 lg:gap-10 xl:gap-14 transition-all duration-500">
             {Links.map((item) => (
               <li>
-                <Link to={item.link} className="text-white hover:text-gray-400">
+                <Link
+                  to={item.link}
+                  className={`text-white ${
+                    location.pathname.includes(item.link)
+                      ? "uppercase text-[#de1342] font-semibold"
+                      : ""
+                  }`}
+                >
                   {item.name}
                 </Link>
               </li>

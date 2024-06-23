@@ -162,7 +162,10 @@ function Testimonial() {
           </div>
           <div className=" px-5">
             <div className="bg-[#82a9ec] backdrop-blur-sm bg-opacity-30 gap-3 flex justify-center items-center rounded-2xl  py-5">
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB40lEQVR4nLXVzUvCYAAG8PfQJboH3fonunTqkpWi9kGUkFmRFdW0tIUGtco+oBILP5iszLLvxD7WWFqwEu2bCPoHunXoGgQRvfEKhnNeNucDz3HPjw32vgCIyPiZbSnwGKgGhYgjNqFrIJW/OIO/cxxXJO/4uaOynqyDao8CNm81w+kLx51s484bZ7Eu0PiNxlF1OzpYt6aEzmvnpiwAFu59TY+j6vf1KUAbrIerd6uKvMbnWaJc66v5H0ftOOhIAahWGn/PCxiKDNxmjqN2HXb+A6jUA9UoGWjN+PbpGsPdPICIES+SxokkUar28j8Pal+kjwe07eh/JAGTrN2cPY46cNLPA1Al/Xw22hLKBZhOMAFA3pCYaAA/MrG5ADNtFgCepGdONDBGW7dzAZazYQHgTrjnRQOTrM2eC8CZEQFAPVAtooHFqLVE46sVAKMMzhtXr2tg6ClUBqTEsNHymQ2MMFYeMEQPfwCpIRj7aDaAHQ/yAFdixQ3ySXvWW2QeFcZwz1fed8Pi1VRF+i5QexVQv9eeGtcEtdB/7zcAOTITJUzoVG0iVRCLYFC5poKu+DIF5MxCbHahf90A/ewSDCaoZ1CIhA+83GVs+60g4yjsacAS5w7vCwZw7G5VMn4UFfPQH1x+rOEeQytpAAAAAElFTkSuQmCC" />
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB40lEQVR4nLXVzUvCYAAG8PfQJboH3fonunTqkpWi9kGUkFmRFdW0tIUGtco+oBILP5iszLLvxD7WWFqwEu2bCPoHunXoGgQRvfEKhnNeNucDz3HPjw32vgCIyPiZbSnwGKgGhYgjNqFrIJW/OIO/cxxXJO/4uaOynqyDao8CNm81w+kLx51s484bZ7Eu0PiNxlF1OzpYt6aEzmvnpiwAFu59TY+j6vf1KUAbrIerd6uKvMbnWaJc66v5H0ftOOhIAahWGn/PCxiKDNxmjqN2HXb+A6jUA9UoGWjN+PbpGsPdPICIES+SxokkUar28j8Pal+kjwe07eh/JAGTrN2cPY46cNLPA1Al/Xw22hLKBZhOMAFA3pCYaAA/MrG5ADNtFgCepGdONDBGW7dzAZazYQHgTrjnRQOTrM2eC8CZEQFAPVAtooHFqLVE46sVAKMMzhtXr2tg6ClUBqTEsNHymQ2MMFYeMEQPfwCpIRj7aDaAHQ/yAFdixQ3ySXvWW2QeFcZwz1fed8Pi1VRF+i5QexVQv9eeGtcEtdB/7zcAOTITJUzoVG0iVRCLYFC5poKu+DIF5MxCbHahf90A/ewSDCaoZ1CIhA+83GVs+60g4yjsacAS5w7vCwZw7G5VMn4UFfPQH1x+rOEeQytpAAAAAElFTkSuQmCC"
+                alt="mongoDb"
+              />
               <h1 className="">MongoDB</h1>
             </div>
           </div>
@@ -319,7 +322,7 @@ function Testimonial() {
           </div>
           <div className=" px-5">
             <div className="bg-[#82a9ec] backdrop-blur-sm bg-opacity-30 gap-3 flex justify-center items-center rounded-2xl  py-5">
-              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB40lEQVR4nLXVzUvCYAAG8PfQJboH3fonunTqkpWi9kGUkFmRFdW0tIUGtco+oBILP5iszLLvxD7WWFqwEu2bCPoHunXoGgQRvfEKhnNeNucDz3HPjw32vgCIyPiZbSnwGKgGhYgjNqFrIJW/OIO/cxxXJO/4uaOynqyDao8CNm81w+kLx51s484bZ7Eu0PiNxlF1OzpYt6aEzmvnpiwAFu59TY+j6vf1KUAbrIerd6uKvMbnWaJc66v5H0ftOOhIAahWGn/PCxiKDNxmjqN2HXb+A6jUA9UoGWjN+PbpGsPdPICIES+SxokkUar28j8Pal+kjwe07eh/JAGTrN2cPY46cNLPA1Al/Xw22hLKBZhOMAFA3pCYaAA/MrG5ADNtFgCepGdONDBGW7dzAZazYQHgTrjnRQOTrM2eC8CZEQFAPVAtooHFqLVE46sVAKMMzhtXr2tg6ClUBqTEsNHymQ2MMFYeMEQPfwCpIRj7aDaAHQ/yAFdixQ3ySXvWW2QeFcZwz1fed8Pi1VRF+i5QexVQv9eeGtcEtdB/7zcAOTITJUzoVG0iVRCLYFC5poKu+DIF5MxCbHahf90A/ewSDCaoZ1CIhA+83GVs+60g4yjsacAS5w7vCwZw7G5VMn4UFfPQH1x+rOEeQytpAAAAAElFTkSuQmCC" />
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAB40lEQVR4nLXVzUvCYAAG8PfQJboH3fonunTqkpWi9kGUkFmRFdW0tIUGtco+oBILP5iszLLvxD7WWFqwEu2bCPoHunXoGgQRvfEKhnNeNucDz3HPjw32vgCIyPiZbSnwGKgGhYgjNqFrIJW/OIO/cxxXJO/4uaOynqyDao8CNm81w+kLx51s484bZ7Eu0PiNxlF1OzpYt6aEzmvnpiwAFu59TY+j6vf1KUAbrIerd6uKvMbnWaJc66v5H0ftOOhIAahWGn/PCxiKDNxmjqN2HXb+A6jUA9UoGWjN+PbpGsPdPICIES+SxokkUar28j8Pal+kjwe07eh/JAGTrN2cPY46cNLPA1Al/Xw22hLKBZhOMAFA3pCYaAA/MrG5ADNtFgCepGdONDBGW7dzAZazYQHgTrjnRQOTrM2eC8CZEQFAPVAtooHFqLVE46sVAKMMzhtXr2tg6ClUBqTEsNHymQ2MMFYeMEQPfwCpIRj7aDaAHQ/yAFdixQ3ySXvWW2QeFcZwz1fed8Pi1VRF+i5QexVQv9eeGtcEtdB/7zcAOTITJUzoVG0iVRCLYFC5poKu+DIF5MxCbHahf90A/ewSDCaoZ1CIhA+83GVs+60g4yjsacAS5w7vCwZw7G5VMn4UFfPQH1x+rOEeQytpAAAAAElFTkSuQmCC" alt="mongoDb" />
               <h1 className="">MongoDB</h1>
             </div>
           </div>

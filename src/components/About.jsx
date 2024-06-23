@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./HomeComponents/Header";
 import Gallery from "./AboutComponents/Gallery";
+import Footer from "./HomeComponents/Footer";
 
 function About() {
   return (
@@ -10,6 +11,9 @@ function About() {
       </div>
       <div className="">
         <Gallery />
+      </div>
+      <div className="">
+        <Footer />
       </div>
     </div>
   );

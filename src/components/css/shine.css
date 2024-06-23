@@ -17,7 +17,7 @@
 }
 
 .pdf{
-  mask-image: linear-gradient(to bottom, white, white,white,transparent);
+  mask-image: linear-gradient(to bottom, white,white,transparent);
 }
 
 @media (max-width: 768px) {
