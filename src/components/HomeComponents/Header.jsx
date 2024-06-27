@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Links } from "../../common/Links";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
+import * as Dialog from "@radix-ui/react-dialog";
 
 function Header() {
   const location = useLocation();
@@ -12,7 +13,9 @@ function Header() {
   };
   return (
     <div className="p-5">
-      <header className="w-100 border border-gray-700 z-[50] bg-gray-600 bg-opacity-25 p-3.5 backdrop-blur-lg rounded-xl flex items-center justify-between">
+      <header
+        className={`border-gray-700 bg-opacity-25 bg-gray-600 w-100 border  z-[50]   p-3.5 backdrop-blur-lg rounded-xl flex items-center justify-between`}
+      >
         <span className="flex items-center gap-3">
           <Link to="/home">
             <img
@@ -30,7 +33,7 @@ function Header() {
                 location.pathname.includes(link.link)
                   ? "uppercase font-semibold"
                   : ""
-              }  tracking-wide text-gray-300 hover:border-gray-200 border-b-2 border-transparent font-normal  text-lg `}
+              }  tracking-wide text-gray-300  hover:border-gray-200  border-b-2 border-transparent font-normal  text-lg `}
               href={link.link}
               key={link.name}
             >
@@ -60,7 +63,7 @@ function Header() {
 
             <DropdownMenu.Portal>
               <DropdownMenu.Content
-                className="mr-10 bg-white rounded-md p-[5px] shadow will-change-[opacity,transform] data-[side=top]:animate-slideDownAndFade data-[side=right]:animate-slideLeftAndFade data-[side=bottom]:animate-slideUpAndFade data-[side=left]:animate-slideRightAndFade"
+                className="mr-10 bg-white z-[100000] rounded-md p-[5px] shadow will-change-[opacity,transform] data-[side=top]:animate-slideDownAndFade data-[side=right]:animate-slideLeftAndFade data-[side=bottom]:animate-slideUpAndFade data-[side=left]:animate-slideRightAndFade"
                 sideOffset={10}
               >
                 <DropdownMenu.Arrow className="fill-white me-24" />
@@ -94,7 +97,7 @@ function Header() {
           </DropdownMenu.Root>
         </span>
 
-        <span className="flex md:hidden lg:hidden" onClick={toggleNavbar}>
+        {/* <span className="flex md:hidden lg:hidden" onClick={toggleNavbar}>
           <i className="text-2xl cursor-pointer fas fa-bars active:scale-110 transition-transform rounded-md transform text-white py-2 px-3"></i>
 
           <ul
@@ -171,6 +174,95 @@ function Header() {
               </DropdownMenu.Root>
             </div>
           </ul>
+        </span> */}
+
+        <span className="flex md:hidden lg:hidden">
+          <Dialog.Root>
+            <Dialog.Trigger asChild>
+              <button>
+                <i className="text-2xl cursor-pointer fas fa-bars active:scale-110 transition-transform rounded-md transform text-white py-2 px-3"></i>
+              </button>
+            </Dialog.Trigger>
+            <Dialog.Portal>
+              <Dialog.Overlay className="bg-blackA6 data-[state=open]:animate-overlayShow fixed inset-0" />
+              <Dialog.Content className="data-[state=open]:animate-contentShow  fixed top-[50%] left-[50%] max-h-[85vh] w-[90vw] max-w-[450px] translate-x-[-50%] translate-y-[-50%] rounded-[6px] bg-white p-[25px] shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,_hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] focus:outline-none">
+                <li className=" md:text-xl flex flex-col  items-center p-2 gap-3">
+                  {Links.map((link) => (
+                    <Dialog.Close asChild>
+                      <a
+                        href={link.link}
+                        key={link.name}
+                        className={` ${
+                          location.pathname.includes(link.link)
+                            ? "bg-[#203354] text-[#fff]"
+                            : ""
+                        }   w-full text-center uppercase p-3 rounded-md text-base`}
+                      >
+                        {link.name}
+                      </a>
+                    </Dialog.Close>
+                  ))}
+                </li>
+                <div className="flex items-center mt-3 justify-center">
+                  <DropdownMenu.Root>
+                    <DropdownMenu.Trigger asChild>
+                      <button class="cursor-pointer flex justify-between bg-gray-800 px-4 py-2 rounded-full text-white tracking-wider hover:bg-gray-900 hover:scale-105 duration-500 hover:ring-1 font-mono w-[120px]">
+                        RESUME
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="2"
+                          stroke="currentColor"
+                          class="w-5 h-5 animate-bounce"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
+                          ></path>
+                        </svg>
+                      </button>
+                    </DropdownMenu.Trigger>
+
+                    <DropdownMenu.Portal>
+                      <DropdownMenu.Content
+                        className=" bg-white rounded-md p-[5px] shadow will-change-[opacity,transform] data-[side=top]:animate-slideDownAndFade data-[side=right]:animate-slideLeftAndFade data-[side=bottom]:animate-slideUpAndFade data-[side=left]:animate-slideRightAndFade"
+                        sideOffset={10}
+                      >
+                        <DropdownMenu.Arrow className="fill-gray-300 " />
+                        <DropdownMenu.Item
+                          className={`${
+                            location.pathname.includes("/resume/preview")
+                              ? "bg-[#203354] text-white"
+                              : ""
+                          }  text-sm leading-none text-[#203354] mb-1 rounded-md py-2 px-2 gap-10 select-none outline-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:bg-[#203354] data-[highlighted]:text-violet1`}
+                        >
+                          <Link
+                            to={"/resume/preview"}
+                            className="flex items-center justify-between gap-10"
+                          >
+                            <h1 className="">Preview</h1>
+                            <i className="fas fa-eye"></i>
+                          </Link>
+                        </DropdownMenu.Item>
+                        <DropdownMenu.Item className=" text-sm leading-none text-[#203354] rounded-md  py-2 px-2 gap-10 select-none outline-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:bg-[#203354] data-[highlighted]:text-violet1">
+                          <a
+                            href={require("../../asserts/resume.pdf")}
+                            download="Santhosh_Resume.pdf"
+                            className="flex items-center justify-between gap-10"
+                          >
+                            <h1 className="">Download</h1>
+                            <i className="fas fa-download"></i>
+                          </a>
+                        </DropdownMenu.Item>
+                      </DropdownMenu.Content>
+                    </DropdownMenu.Portal>
+                  </DropdownMenu.Root>
+                </div>
+              </Dialog.Content>
+            </Dialog.Portal>
+          </Dialog.Root>
         </span>
       </header>
     </div>

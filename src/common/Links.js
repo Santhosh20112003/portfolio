@@ -42,4 +42,45 @@ export const slides = [
       "Hello, This is Prathiksha, Santhosh is a very enthusiastic, organised and an encouraging leader I worked in his team under his leadership for a project. He is both technically sound and good at leading a team.He always has a hunger to learn something new and shares his knowledge to others without hesitation. We would always feel productive to work in his team.",
     img: "https://ik.imagekit.io/vituepzjm/WhatsApp%20Image%202024-06-22%20at%2015.46.28_f85cecee.jpg?updatedAt=1719051690652",
   },
+  {
+    userName: "Kishanthi",
+    designation: "Software Developer - One yes Info tech solution",
+    review:
+      "Hi...This is Kishanthi from OneYes. I have worked with Santhosh during his intern in software developer.He is good in python, Bootstrap, Java, nodejs, react, Larvel framework, jira, Agile, SQL database..He applied his knowledge by creating his own applications which was really awesome in validations and flow...Overall he is a knowledgeable person",
+    img: "https://img.icons8.com/fluency/48/developer-female.png",
+  },
+];
+
+export const social = [
+  {
+    name: "GitHub",
+    link: "https://github.com/Santhosh20112003",
+    svgcode: "fab fa-github",
+    color: "#171515",
+  },
+  {
+    name: "Whatsapp",
+    link: "https://wa.link/e1hg78",
+    svgcode: "fab fa-whatsapp",
+    color: "#4867aa",
+  },
+
+  {
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/santhosh-shanmugam2003",
+    svgcode: "fab fa-linkedin-in",
+    color: "#0a63bc",
+  },
+  {
+    name: "Google",
+    link: "https://g.dev/santhoshshanmugam",
+    svgcode: "fab fa-google",
+    color: "#4867aa",
+  },
+  {
+    name: "Instagram",
+    link: "https://www.instagram.com/santhosh_shanmugam_22/",
+    svgcode: "fab fa-instagram",
+    color: "#f70075",
+  },
 ];

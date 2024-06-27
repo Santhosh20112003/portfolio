@@ -1,0 +1,4 @@
+.transparency{
+    mask-image: linear-gradient(to bottom,white,white ,white ,white ,transparent);
+}
+
