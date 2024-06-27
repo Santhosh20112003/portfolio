@@ -1,20 +1,32 @@
 import React from "react";
 import Header from "./HomeComponents/Header";
 import Footer from "./HomeComponents/Footer";
-import Hero from "./SkillsComponents/Hero";
+import TechStack from "./SkillsComponents/TechStack";
 import GithubProgress from "./SkillsComponents/GithubProgress";
+import Certifications from "./SkillsComponents/Certifications";
+import Badges from "./SkillsComponents/Badges";
+import AchievementAndHonors from "./SkillsComponents/AchievementAndHonors";
 
 function Skills() {
   return (
-    <div className="bg-[#203354] w-full h-screen">
-      <div className="">
+    <div className="bg-white w-full h-screen">
+      <div className="bg-[#203354]">
         <Header />
       </div>
-      <div className="bg-white">
-        <Hero />
+      <div className="">
+        <TechStack />
       </div>
-      <div className="bg-white">
+      <div className="">
         <GithubProgress />
+      </div>
+      <div className="">
+        <Certifications />
+      </div>
+      <div className="">
+        <Badges />
+      </div>
+      <div className="">
+        <AchievementAndHonors />
       </div>
       <div className="">
         <Footer />

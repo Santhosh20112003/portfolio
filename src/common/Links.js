@@ -84,3 +84,46 @@ export const social = [
     color: "#f70075",
   },
 ];
+
+export const products = [
+  {
+    name: "SanTech ApiHub",
+    link: "https://santechapihubs.vercel.app/",
+    logo: "https://ik.imagekit.io/vituepzjm/santechapi-logo.png?updatedAt=1703003422045",
+  },
+  {
+    name: "Cloud Point",
+    link: "https://cloudpoint.vercel.app/",
+    logo: "https://ik.imagekit.io/vituepzjm/logo512.png?updatedAt=1706199991973",
+  },
+  {
+    name: "News Karo",
+    link: "https://newskaro.vercel.app/",
+    logo: "https://ik.imagekit.io/vituepzjm/newskaro-.png?updatedAt=1712479319152",
+  },
+  {
+    name: "SanTech ApiTool",
+    link: "https://santechapitool.vercel.app/",
+    logo: "https://ik.imagekit.io/vituepzjm/Untitled_design__6_-removebg-preview.png?updatedAt=1710598851184",
+  },
+  {
+    name: "Insightful Blog",
+    link: "https://insightfulblog.vercel.app/",
+    logo: "https://ik.imagekit.io/vituepzjm/logo64-.png?updatedAt=1710734230174",
+  },
+  {
+    name: "Jarvis AI",
+    link: "https://aijarvis.vercel.app/",
+    logo: "https://ik.imagekit.io/vituepzjm/Jarvis.png?updatedAt=1719522978753",
+  },
+  {
+    name: "SanTech Learn",
+    link: "https://santhosh-learning.netlify.app/",
+    logo: "https://ik.imagekit.io/vituepzjm/logo-3.png?updatedAt=1719522979190",
+  },
+  {
+    name: "Eesai Music",
+    link: "https://eesai.netlify.app/",
+    logo: "https://ik.imagekit.io/vituepzjm/music-logo-dark.svg?updatedAt=1719522978405",
+  },
+];
