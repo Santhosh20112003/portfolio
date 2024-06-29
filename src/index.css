@@ -2,7 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    font-family: "Poppins", sans-serif;
-    scroll-behavior: smooth;
+* {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  cursor:url(""), auto;
+}
+
+.scaling{
+animation: scaleon 3s ease-in-out infinite;
+}
+
+@keyframes scaleon {
+    50% {
+        scale: 110%;
+    }
 }

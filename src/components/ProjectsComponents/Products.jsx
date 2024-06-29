@@ -16,10 +16,10 @@ function Products() {
             <Link
               to={item.link}
               target="_blank"
-              class="flex justify-center group gap-3 items-center hover:bg-[#203354] border border-solid border-gray-200 shadow-sm h-24 rounded-2xl"
+              class="flex justify-center gap-3 items-center hover:shadow-lg cursor-pointer transition-all ease-in-out duration-300 border border-solid border-gray-200 shadow-md h-24 rounded-2xl"
             >
-              <img src={item.logo} alt={item.name} className="h-10 group-hover:text-white" />
-              <h1 className="text-lg group-hover:text-white">{item.name}</h1>
+              <img src={item.logo} alt={item.name} className="h-10 transition-all ease-in-out duration-300 " />
+              <h1 className="text-lg transition-all ease-in-out duration-300 ">{item.name}</h1>
             </Link>
           ))}
         </div>

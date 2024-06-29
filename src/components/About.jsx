@@ -2,10 +2,11 @@ import React from "react";
 import Header from "./HomeComponents/Header";
 import Gallery from "./AboutComponents/Gallery";
 import Footer from "./HomeComponents/Footer";
-import Hero from "./AboutComponents/Hero";
+import AboutMe from "./AboutComponents/About";
 import WorkExperience from "./AboutComponents/WorkExperience";
 import Hobby from "./AboutComponents/Hobby";
 import Journey from "./AboutComponents/Journey";
+import Hero from "./AboutComponents/Hero";
 
 function About() {
   return (
@@ -17,10 +18,13 @@ function About() {
         <Hero />
       </div>
       <div className="">
-        <WorkExperience />
+        <AboutMe />
       </div>
       <div className="">
         <Hobby />
+      </div>
+      <div className="">
+        <WorkExperience />
       </div>
       <div className="">
         <Journey />
