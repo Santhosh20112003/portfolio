@@ -5,13 +5,17 @@ import TechStack from "./SkillsComponents/TechStack";
 import GithubProgress from "./SkillsComponents/GithubProgress";
 import Certifications from "./SkillsComponents/Certifications";
 import Badges from "./SkillsComponents/Badges";
-import AchievementAndHonors from "./SkillsComponents/AchievementAndHonors";
+import WorkShopandTraining from "./SkillsComponents/WorkShopandTraining";
+import Hero from "./SkillsComponents/Hero";
 
 function Skills() {
   return (
     <div className="bg-white w-full h-screen">
       <div className="bg-[#203354]">
         <Header />
+      </div>
+      <div className="">
+        <Hero />
       </div>
       <div className="">
         <TechStack />
@@ -26,7 +30,7 @@ function Skills() {
         <Badges />
       </div>
       <div className="">
-        <AchievementAndHonors />
+        <WorkShopandTraining />
       </div>
       <div className="">
         <Footer />

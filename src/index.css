@@ -5,8 +5,11 @@
 * {
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
-  cursor:url(""), auto;
+  /* cursor:url("https://img.icons8.com/emoji/48/000000/white-circle-emoji.png"), auto !important; */
 }
+
+/* https://img.icons8.com/puffy-filled/32/ffffff/filled-circle.png */
+/* https://img.icons8.com/emoji/48/000000/white-circle-emoji.png */
 
 .scaling{
 animation: scaleon 3s ease-in-out infinite;

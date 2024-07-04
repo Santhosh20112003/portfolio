@@ -1,16 +1,16 @@
 import React from "react";
-import { certificates } from "../../common/Links";
 import * as Dialog from "@radix-ui/react-dialog";
 import * as Tooltip from "@radix-ui/react-tooltip";
+import { certificates, workshop } from "../../common/Links";
 
-function Certifications() {
+function WorkShopandTraining() {
   return (
     <div className="pb-12 md:pb-24 px-5 md:px-12">
       <h1 class="text-[#203354] text-start ps-4 border-s-4 border-[#203354] w-fit font-semibold text-2xl md:text-5xl mb-12 min-[500px]:text-3xl leading-tight">
-      Certifications Conquered
+        Workshops and Hackathons Attended
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:grid-cols-3 xl:grid-cols-4">
-        {certificates.map((item) => (
+        {workshop.map((item) => (
           <div class="group pb-20 relative rounded-lg shadow-lg overflow-hidden">
             <div class=" transition-all duration-700 translate-y-full top-0 right-0 left-0 absolute z-10"></div>
             <Dialog.Root>
@@ -50,30 +50,7 @@ function Certifications() {
               </Dialog.Portal>
             </Dialog.Root>
             <div class="bg-gray-100 absolute z-10 border-t-[3px] border-gray-400 bottom-0 left-0 w-full h-20 flex flex-col justify-center items-center">
-              <div class="z-20 absolute -top-5 w-full flex justify-center">
-                <Tooltip.Provider>
-                  <Tooltip.Root>
-                    <Tooltip.Trigger asChild>
-                      <img
-                        src={item.logo}
-                        alt={item.name}
-                        className=" h-10 rounded-lg"
-                      />
-                    </Tooltip.Trigger>
-                    <Tooltip.Portal>
-                      <Tooltip.Content
-                        className="data-[state=delayed-open]:data-[side=top]:animate-slideDownAndFade data-[state=delayed-open]:data-[side=right]:animate-slideLeftAndFade data-[state=delayed-open]:data-[side=left]:animate-slideRightAndFade data-[state=delayed-open]:data-[side=bottom]:animate-slideUpAndFade text-gray-500 select-none rounded-[4px] z-[1000] bg-white px-[15px] py-[10px] text-[15px] leading-none will-change-[transform,opacity]"
-                        sideOffset={5}
-                        side="top"
-                      >
-                        {item.company}
-                        <Tooltip.Arrow className="fill-gray-100" />
-                      </Tooltip.Content>
-                    </Tooltip.Portal>
-                  </Tooltip.Root>
-                </Tooltip.Provider>
-              </div>
-              <h2 class="font-bold mt-3 px-5 py-12 leading-5 text-center break-words">
+              <h2 class="font-bold  px-5 py-8 leading-5 text-center break-words">
                 {item.name}
               </h2>
             </div>
@@ -84,4 +61,4 @@ function Certifications() {
   );
 }
 
-export default Certifications;
+export default WorkShopandTraining;

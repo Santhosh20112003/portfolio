@@ -106,7 +106,10 @@ function GithubProgress() {
     },
   };
   return (
-    <div className="bg-white flex overflow-x-auto flex-col px-5 py-12 items-center justify-center">
+    <div className="bg-white flex overflow-x-auto flex-col pb-12 md:pb-24 px-5 md:px-12 justify-center">
+      <h1 class="text-[#203354] text-start ps-4 border-s-4 border-[#203354] w-fit font-semibold text-2xl md:text-5xl mb-16 min-[500px]:text-3xl leading-tight">
+        My Live GitHub Activity
+      </h1>
       <span className="hidden xl:block">
         <GitHubCalendar
           username="Santhosh20112003"

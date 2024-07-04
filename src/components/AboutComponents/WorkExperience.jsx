@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import * as Dialog from "@radix-ui/react-dialog";
 
 function WorkExperience() {
   return (
@@ -42,6 +43,30 @@ function WorkExperience() {
               Application Development Intern at Oneyes Infotech Solutions,
               enhancing my skills in Full Stack Development.
             </p>
+
+            <Dialog.Root>
+              <Dialog.Trigger asChild>
+                <button className="inline-flex items-center px-4 mt-5 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-[#203354] focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-[#203354]">
+                  <i className="w-3.5 h-3.5 me-2.5 fas fa-binoculars"></i>
+                  Offer Letter
+                </button>
+              </Dialog.Trigger>
+              <Dialog.Portal>
+                <Dialog.Overlay className="bg-blackA6 z-[100] data-[state=open]:animate-overlayShow fixed inset-0" />
+                <Dialog.Content className="data-[state=open]:animate-contentShow flex items-center justify-center bg-transparent z-[1000] fixed top-[50%] left-[50%] max-h-[80vh] w-[90vw] max-w-[450px] translate-x-[-50%] translate-y-[-50%] rounded-[6px] focus:outline-none">
+                  <img
+                    src="https://ik.imagekit.io/vituepzjm/Adobe%20Scan%2001%20Jul%202024_1.jpg?updatedAt=1719852348670"
+                    alt="Oneyes Internship Resume"
+                    className="object-contain md:h-[80vh] w-[80vw]"
+                  />
+                  <Dialog.Close asChild>
+                    <button className="bg-black hidden lg:block bg-opacity-25 px-[10px] py-[3px] rounded-full absolute top-3 right-10">
+                      <i className="text-white fas fa-xmark "></i>
+                    </button>
+                  </Dialog.Close>
+                </Dialog.Content>
+              </Dialog.Portal>
+            </Dialog.Root>
           </div>
         </li>
         <li className="relative mb-6 lg:mb-0">
@@ -71,6 +96,30 @@ function WorkExperience() {
               interning at Nexcap, working on real-world projects and learning
               best practices from experienced professionals.
             </p>
+
+            <Dialog.Root>
+              <Dialog.Trigger asChild>
+                <button className="inline-flex items-center px-4 mt-5 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-[#203354] focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-[#203354]">
+                  <i className="w-3.5 h-3.5 me-2.5 fas fa-binoculars"></i>
+                  Offer Letter
+                </button>
+              </Dialog.Trigger>
+              <Dialog.Portal>
+                <Dialog.Overlay className="bg-blackA6 z-[100] data-[state=open]:animate-overlayShow fixed inset-0" />
+                <Dialog.Content className="data-[state=open]:animate-contentShow flex items-center justify-center  bg-transparent z-[1000] fixed top-[50%] left-[50%] max-h-[80vh] w-[90vw] max-w-[450px] translate-x-[-50%] translate-y-[-50%] rounded-[6px] focus:outline-none">
+                  <img
+                    src="https://ik.imagekit.io/vituepzjm/IMG-20240307-WA0001(1).jpg?updatedAt=1719847726370"
+                    alt="Nexcap Internship Resume"
+                    className="object-contain h-[80vh] w-[80vw]"
+                  />
+                  <Dialog.Close asChild>
+                    <button className="bg-black hidden lg:block bg-opacity-25 px-[10px] py-[3px] rounded-full absolute top-3 right-10">
+                      <i className="text-white fas fa-xmark "></i>
+                    </button>
+                  </Dialog.Close>
+                </Dialog.Content>
+              </Dialog.Portal>
+            </Dialog.Root>
           </div>
         </li>
         <li className="relative mb-6 lg:mb-0">
@@ -102,8 +151,33 @@ function WorkExperience() {
               </time>
             </Link>
             <p className=" md:text-base font-normal text-gray-500">
-            Gained practical cybersecurity experience through a hands-on internship at Pantech eLearning Pvt Ltd. Developed skills in Basics of Cyber Security.
+              Gained practical cybersecurity experience through a hands-on
+              internship at Pantech eLearning Pvt Ltd. Developed skills in
+              Basics of Cyber Security.
             </p>
+            <Dialog.Root>
+              <Dialog.Trigger asChild>
+                <button className="inline-flex items-center px-4 mt-5 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-[#203354] focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-[#203354]">
+                  <i className="w-3.5 h-3.5 me-2.5 fas fa-binoculars"></i>
+                  Offer Letter
+                </button>
+              </Dialog.Trigger>
+              <Dialog.Portal>
+                <Dialog.Overlay className="bg-blackA6 z-[100] data-[state=open]:animate-overlayShow fixed inset-0" />
+                <Dialog.Content className="data-[state=open]:animate-contentShow flex items-center justify-center bg-transparent z-[1000] fixed top-[50%] left-[50%] max-h-[80vh] w-[90vw] max-w-[700px] translate-x-[-50%] translate-y-[-50%] rounded-[6px] focus:outline-none">
+                  <img
+                    src="https://ik.imagekit.io/vituepzjm/pantech.png?updatedAt=1719849565699"
+                    alt="pantech Internship Resume"
+                    className="object-contain  bg-white w-[80vw]"
+                  />
+                  <Dialog.Close asChild>
+                    <button className="bg-black hidden lg:block bg-opacity-25 px-[10px] py-[3px] rounded-full absolute top-3 right-3">
+                      <i className="text-white fas fa-xmark "></i>
+                    </button>
+                  </Dialog.Close>
+                </Dialog.Content>
+              </Dialog.Portal>
+            </Dialog.Root>
           </div>
         </li>
       </ol>

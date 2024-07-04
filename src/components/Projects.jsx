@@ -14,19 +14,19 @@ function Projects() {
         <Header />
       </div>
       <div className="bg-[#203354]">
-        <Hero/>
+        <Hero />
       </div>
       <div className="bg-white">
-        <Abstract/>
+        <Projects2 />
       </div>
       <div className="bg-white">
-        <Projects2/>
+        <Abstract />
       </div>
       <div className="bg-white">
-        <FutureProjects/>
+        <FutureProjects />
       </div>
       <div className="bg-white">
-        <Products/>
+        <Products />
       </div>
       <div className="">
         <Footer />

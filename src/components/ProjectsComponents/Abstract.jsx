@@ -1,51 +1,60 @@
 import React from "react";
-import { Tilt } from "react-tilt";
+import * as Dialog from "@radix-ui/react-dialog";
+import { abstract } from "../../common/Links";
 
 function Abstract() {
-  const defaultOptions = {
-    reverse: false, // reverse the tilt direction
-    max: 45, // max tilt rotation (degrees)
-    perspective: 1000, // Transform perspective, the lower the more extreme the tilt gets.
-    scale: 1.1, // 2 = 200%, 1.5 = 150%, etc..
-    speed: 1000, // Speed of the enter/exit transition
-    transition: true, // Set a transition on enter/exit.
-    axis: null, // What axis should be disabled. Can be X or Y.
-    reset: true, // If the tilt effect has to be reset on exit.
-    easing: "cubic-bezier(.03,.98,.52,.99)", // Easing on enter/exit.
-  };
-
   return (
-    <div className="py-12 px-5 flex items-center justify-evenly ">
-      <Tilt
-        options={defaultOptions}
-        className="w-fit rounded-full cursor-pointer flex items-center justify-center text-7xl"
-      >
-        <div className="drop-shadow-4xl">😍</div>
-      </Tilt>
-      <Tilt
-        options={defaultOptions}
-        className="w-fit rounded-full cursor-pointer flex items-center justify-center text-7xl"
-      >
-        <div className="drop-shadow-4xl">😂</div>
-      </Tilt>
-      <Tilt
-        options={defaultOptions}
-        className="w-fit rounded-full cursor-pointer flex items-center justify-center text-7xl"
-      >
-        <div className="drop-shadow-4xl">😒</div>
-      </Tilt>
-      <Tilt
-        options={defaultOptions}
-        className="w-fit rounded-full cursor-pointer flex items-center justify-center text-7xl"
-      >
-        <div className="drop-shadow-4xl">😊</div>
-      </Tilt>
-      <Tilt
-        options={defaultOptions}
-        className="w-fit rounded-full cursor-pointer flex items-center justify-center text-7xl"
-      >
-        <div className="drop-shadow-4xl">🥷</div>
-      </Tilt>
+    <div className="pb-12 md:pb-24 px-5 md:px-12">
+      <h1 className="text-[#203354] text-start ps-4 border-s-4 border-[#203354] w-fit font-semibold text-2xl md:text-5xl mb-12 min-[500px]:text-3xl leading-tight">
+      My Works in a Nutshell
+      </h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:grid-cols-3 xl:grid-cols-4">
+        {abstract.map((item, index) => (
+          <div
+            key={index}
+            className="group pb-20 relative rounded-lg shadow-lg overflow-hidden"
+          >
+            <div className="transition-all duration-700 translate-y-full top-0 right-0 left-0 absolute z-10"></div>
+            <Dialog.Root>
+              <Dialog.Trigger asChild>
+                <span className="cursor-pointer" >
+                  <img
+                    src={item.image}
+                    className="transition-all object-cover group-hover:object-top h-[220px] brightness-90 duration-700 w-full"
+                    alt={item.name}
+                  />
+                  <button className="absolute top-3 right-3 bg-black bg-opacity-30 rounded-lg py-1 px-2">
+                    <i className="fas fa-expand text-white"></i>
+                  </button>
+                </span>
+              </Dialog.Trigger>
+              <Dialog.Portal>
+                <Dialog.Overlay className="bg-blackA6 z-[100] data-[state=open]:animate-overlayShow fixed inset-0" />
+                <Dialog.Content
+                  className={`data-[state=open]:animate-contentShow flex items-center justify-center bg-transparent z-[1000] fixed top-[50%] left-[50%]  
+                   translate-x-[-50%] translate-y-[-50%] max-h-[80vh] w-[90vw] max-w-[400px] rounded-[6px] focus:outline-none`}
+                >
+                  <img
+                    src={item.image}
+                    alt={item.name}
+                    className="object-contain rounded-md border-b-4 border-gray-100 w-[80vw]"
+                  />
+                  <Dialog.Close asChild>
+                    <button className="bg-black hidden lg:block bg-opacity-25 px-[10px] py-[3px] rounded-full absolute top-0 right-2">
+                      <i className="text-white fas fa-times"></i>
+                    </button>
+                  </Dialog.Close>
+                </Dialog.Content>
+              </Dialog.Portal>
+            </Dialog.Root>
+            <div className="bg-blue-100 absolute z-10 border-t-[3px] border-blue-900 bottom-0 left-0 w-full h-20 flex flex-col justify-center items-center">
+              <h2 className="font-bold px-5 py-8 text-blue-900 capitalize leading-5 text-center text-lg break-words">
+                {item.name}
+              </h2>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
