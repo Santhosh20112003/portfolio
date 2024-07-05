@@ -15,6 +15,15 @@
 animation: scaleon 3s ease-in-out infinite;
 }
 
+.cc-1si9v{
+  opacity: 0 !important;
+  display: none !important;
+}
+
+.cc-1kqps{
+  box-shadow: 0 0 20px #212121;
+}
+
 @keyframes scaleon {
     50% {
         scale: 110%;

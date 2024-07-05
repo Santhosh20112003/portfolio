@@ -11,8 +11,11 @@ import {
 
 function TechStack() {
   return (
-    <section className="md:px-5 py-12">
-      <div className="w-full px-6 lg:px-8 mx-auto">
+    <section className="md:px-5 px-6 lg:px-8 py-12">
+      <h1 class="text-[#203354] text-center ps-4 border-s-4 border-[#203354] w-fit font-semibold text-2xl md:text-5xl mb-10 min-[500px]:text-3xl leading-tight">
+       My ToolBox 
+      </h1>
+      <div className="w-full  mx-auto">
         <div className="grid grid-cols-1 break-words sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-6">
           <div className="sm:col-span-4  border-2 border-gray-300 rounded-lg gap-3 grid-cols-1 lg:grid-cols-3 grid p-5 ">
             <div className="sm:col-span-2 order-2 lg:order-1 grid mt-5 lg:mt-0 grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
@@ -52,12 +55,12 @@ function TechStack() {
               </h4>
             </div>
           </div>
-          <div className="md:col-span-4 lg:col-span-1 border-2 border-gray-300 pt-5 rounded-lg grid grid-cols-4 md:grid-cols-2 p-5">
-            <span className="bg-gradient-to-br py-4 from-sky-200 to-sky-300 gap-2 rounded-lg md:col-span-1 col-span-4 w-full h-full flex flex-col items-center justify-center">
-              <div class="rounded-full flex justify-center mb-2 text-gray-700 items-center w-10 h-10">
+          <div className="md:col-span-4 lg:col-span-1 border-2 border-gray-300 rounded-lg grid grid-cols-4 md:grid-cols-2 p-5">
+            <span className="bg-gradient-to-br py-6 from-sky-200 to-sky-300 gap-2 rounded-lg md:col-span-1 col-span-4 w-full h-full flex flex-col items-center justify-center">
+              <div class="rounded-full flex justify-center text-gray-700 items-center w-10 h-10">
                 <i className="fas fa-vial text-4xl"></i>
               </div>
-              <h1 className="text-2xl font-semibold  text-gray-700 text-center leading-8 capitalize transition-all duration-500 ">
+              <h1 className="text-lg font-semibold  text-gray-700 text-center leading-8 capitalize transition-all duration-500 ">
                 Testing Tools
               </h1>
             </span>

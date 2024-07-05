@@ -79,7 +79,7 @@ export const social = [
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/santhosh_shanmugam_22/",
+    link: "https://www.instagram.com/santhosh_shanmugam_20/?utm_source=qr",
     svgcode: "fab fa-instagram",
     color: "#f70075",
   },
@@ -125,6 +125,25 @@ export const products = [
     name: "Eesai Music",
     link: "https://eesai.netlify.app/",
     logo: "https://ik.imagekit.io/vituepzjm/music-logo-dark.svg?updatedAt=1719522978405",
+  },
+];
+
+export const hobbies = [
+  {
+    name: "Cricket",
+    logo: "https://ik.imagekit.io/vituepzjm/Santech/Cricket-cuate.png?updatedAt=1720148685133",
+  },
+  {
+    name: "Learning",
+    logo: "https://ik.imagekit.io/vituepzjm/Santech/Learning-cuate.png?updatedAt=1720148685143",
+  },
+  {
+    name: "Photography",
+    logo: "https://ik.imagekit.io/vituepzjm/Santech/Studio%20photographer-cuate%20(1).png?updatedAt=1720149114191",
+  },
+  {
+    name: "Gaming",
+    logo: "https://ik.imagekit.io/vituepzjm/Santech/Gaming-amico.png?updatedAt=1720148685156",
   },
 ];
 

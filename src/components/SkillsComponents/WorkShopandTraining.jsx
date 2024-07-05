@@ -1,17 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import * as Dialog from "@radix-ui/react-dialog";
-import * as Tooltip from "@radix-ui/react-tooltip";
-import { certificates, workshop } from "../../common/Links";
+import { workshop } from "../../common/Links";
+import Aos from "aos";
 
 function WorkShopandTraining() {
+  useEffect(() => {
+    Aos.init();
+  });
   return (
     <div className="pb-12 md:pb-24 px-5 md:px-12">
       <h1 class="text-[#203354] text-start ps-4 border-s-4 border-[#203354] w-fit font-semibold text-2xl md:text-5xl mb-12 min-[500px]:text-3xl leading-tight">
         Workshops and Hackathons Attended
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:grid-cols-3 xl:grid-cols-4">
-        {workshop.map((item) => (
-          <div class="group pb-20 relative rounded-lg shadow-lg overflow-hidden">
+        {workshop.map((item, index) => (
+          <div
+            data-aos-duration="1000"
+            data-aos-delay={index * 100}
+            data-aos="fade-up"
+            class="group pb-20 relative rounded-lg shadow-lg overflow-hidden"
+          >
             <div class=" transition-all duration-700 translate-y-full top-0 right-0 left-0 absolute z-10"></div>
             <Dialog.Root>
               <Dialog.Trigger asChild>

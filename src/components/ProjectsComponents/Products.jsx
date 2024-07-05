@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 function Products() {
   return (
-    <section class="py-16">
+    <section class="pb-16">
       <div class="mx-auto max-w-[85rem] px-4 sm:px-6 lg:px-8">
         <div class="md:mb-20 mb-10 text-center">
           <h1 class="md:text-4xl text-[1.7rem] capitalize md:leading-[3rem] text-gray-700 text-center font-bold">
-            Check Out My Products - They might be just what you need!
+            "Check Out My Products, They might be just what you need!"
           </h1>
         </div>
         <div class="grid grid-cols-1 gap-8 md:grid-cols-2  xl:grid-cols-4">

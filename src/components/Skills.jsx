@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "./HomeComponents/Header";
 import Footer from "./HomeComponents/Footer";
 import TechStack from "./SkillsComponents/TechStack";
@@ -9,6 +9,12 @@ import WorkShopandTraining from "./SkillsComponents/WorkShopandTraining";
 import Hero from "./SkillsComponents/Hero";
 
 function Skills() {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }, []);
   return (
     <div className="bg-white w-full h-screen">
       <div className="bg-[#203354]">

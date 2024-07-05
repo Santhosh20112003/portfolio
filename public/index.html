@@ -73,10 +73,16 @@
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
 
-    <script
-      type="text/javascript"
-      async
-      src="//cdn.credly.com/assets/utilities/embed.js"
-    ></script>
+    <script type="text/javascript">
+      window.$crisp = [];
+      window.CRISP_WEBSITE_ID = "f93c7302-39d5-48e8-8a32-70b1baa359d6";
+      (function () {
+        d = document;
+        s = d.createElement("script");
+        s.src = "https://client.crisp.chat/l.js";
+        s.async = 1;
+        d.getElementsByTagName("head")[0].appendChild(s);
+      })();
+    </script>
   </body>
 </html>

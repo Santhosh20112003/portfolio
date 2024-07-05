@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   BrowserRouter as Router,
   Routes,
@@ -11,8 +11,27 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Resume from "./components/Resume";
+import ScrollTop from "./components/ScrollTop";
+import toast, { Toaster } from "react-hot-toast";
 
 function App() {
+  useEffect(() => {
+    const handleOnline = () => {
+      toast.success("Welcome Back to Online")
+    };
+
+    const handleOffline = () => {
+      toast.error("Oops you're Offline")
+    };
+
+    window.addEventListener("online", handleOnline);
+    window.addEventListener("offline", handleOffline);
+
+    return () => {
+      window.removeEventListener("online", handleOnline);
+      window.removeEventListener("offline", handleOffline);
+    };
+  }, []);
   return (
     <div>
       <Router>
@@ -27,6 +46,10 @@ function App() {
           <Route path="*" element={<Navigate to="home" />} />
         </Routes>
       </Router>
+      <div className="z-[100000000000000000000000000000000]">
+        <Toaster />
+      </div>
+      <ScrollTop />
     </div>
   );
 }
