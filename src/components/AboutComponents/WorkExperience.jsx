@@ -5,15 +5,15 @@ import * as Dialog from "@radix-ui/react-dialog";
 function WorkExperience() {
   return (
     <div className="px-4 md:px-6 lg:px-24 py-12">
-      <h2 class="text-gray-600 text-center capitalize text-2xl md:text-4xl font-bold leading-normal lg:text-start mb-5 md:mb-10">
+      <h2 class="text-gray-600 text-center capitalize text-3xl md:text-4xl font-bold leading-normal lg:text-start mb-6 md:mb-10">
         My Work Experience
       </h2>
       <ol className="items-center lg:flex">
-        <li className="relative mb-6 lg:mb-0">
+        <li className="relative mb-10 lg:mb-0">
           <div className="flex items-center">
-            <div className="z-10 flex items-center justify-center w-8 h-8 bg-blue-100 rounded-full ring-0 ring-white shrink-0">
+            <div className="z-10 flex items-center justify-center w-10 h-10 md:w-8 md:h-8 bg-blue-100 rounded-full ring-0 ring-white shrink-0">
               <svg
-                className="w-3 h-3 text-[#203354]"
+                className="md:w-3 md:h-3 w-4 h-4 text-[#203354]"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -57,10 +57,10 @@ function WorkExperience() {
                   <img
                     src="https://ik.imagekit.io/vituepzjm/Adobe%20Scan%2001%20Jul%202024_1.jpg?updatedAt=1719852348670"
                     alt="Oneyes Internship Resume"
-                    className="object-contain md:h-[80vh] w-[80vw]"
+                    className="object-contain md:h-[80vh] bg-gray-200 md:bg-transparent w-[80vw]"
                   />
                   <Dialog.Close asChild>
-                    <button className="bg-black hidden lg:block bg-opacity-25 px-[10px] py-[3px] rounded-full absolute top-3 right-10">
+                    <button className="bg-black bg-opacity-25 px-[10px] py-[3px] rounded-full absolute top-3 right-6 md:right-10">
                       <i className="text-white fas fa-xmark "></i>
                     </button>
                   </Dialog.Close>
@@ -71,9 +71,9 @@ function WorkExperience() {
         </li>
         <li className="relative mb-6 lg:mb-0">
           <div className="flex items-center">
-            <div className="z-10 flex items-center justify-center w-8 h-8 bg-blue-100 rounded-full ring-0 ring-white shrink-0">
+            <div className="z-10 flex items-center justify-center w-10 h-10 md:w-8 md:h-8 bg-blue-100 rounded-full ring-0 ring-white shrink-0">
               <svg
-                className="w-3 h-3 text-[#203354]"
+                className="md:w-3 md:h-3 w-4 h-4 text-[#203354]"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -110,10 +110,10 @@ function WorkExperience() {
                   <img
                     src="https://ik.imagekit.io/vituepzjm/IMG-20240307-WA0001(1).jpg?updatedAt=1719847726370"
                     alt="Nexcap Internship Resume"
-                    className="object-contain h-[80vh] w-[80vw]"
+                    className="object-contain md:h-[80vh] bg-gray-200 md:bg-transparent h-fit w-[80vw]"
                   />
                   <Dialog.Close asChild>
-                    <button className="bg-black hidden lg:block bg-opacity-25 px-[10px] py-[3px] rounded-full absolute top-3 right-10">
+                    <button className="bg-black bg-opacity-25 px-[10px] py-[3px] rounded-full absolute top-3 right-6 md:right-10">
                       <i className="text-white fas fa-xmark "></i>
                     </button>
                   </Dialog.Close>
@@ -124,9 +124,9 @@ function WorkExperience() {
         </li>
         <li className="relative mb-6 lg:mb-0">
           <div className="flex items-center">
-            <div className="z-10 flex items-center justify-center w-8 h-8 bg-blue-100 rounded-full ring-0 ring-white shrink-0">
+            <div className="z-10 flex items-center justify-center w-10 h-10 md:w-8 md:h-8 bg-blue-100 rounded-full ring-0 ring-white shrink-0">
               <svg
-                className="w-3 h-3 text-[#203354]"
+                className="md:w-3 md:h-3 w-4 h-4 text-[#203354]"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -168,10 +168,10 @@ function WorkExperience() {
                   <img
                     src="https://ik.imagekit.io/vituepzjm/pantech.png?updatedAt=1719849565699"
                     alt="pantech Internship Resume"
-                    className="object-contain  bg-white w-[80vw]"
+                    className="object-contain  bg-gray-200 w-[80vw]"
                   />
                   <Dialog.Close asChild>
-                    <button className="bg-black hidden lg:block bg-opacity-25 px-[10px] py-[3px] rounded-full absolute top-3 right-3">
+                    <button className="bg-black bg-opacity-25 px-[10px] py-[3px] rounded-full absolute top-3 right-6 md:right-3">
                       <i className="text-white fas fa-xmark "></i>
                     </button>
                   </Dialog.Close>

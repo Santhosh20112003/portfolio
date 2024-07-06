@@ -18,10 +18,10 @@ function Badges() {
   };
   return (
     <div className="pb-12 md:pb-24 px-5 md:px-12">
-      <h1 class="text-[#203354] text-start ps-4 border-s-4 border-[#203354] w-fit font-semibold text-2xl md:text-5xl mb-12 min-[500px]:text-3xl leading-tight">
+      <h1 class="text-[#203354] text-center md:ps-4 md:border-s-4 md:border-[#203354] md:w-fit font-semibold  md:text-5xl mb-10 text-3xl leading-tight">
       My Completed Badges
       </h1>
-      <div className=" grid grid-cols-1 sm:grid-cols-2  gap-10 lg:grid-cols-4 xl:grid-cols-5">
+      <div className=" grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-10 lg:grid-cols-4 xl:grid-cols-5">
         {badges.map((item) => (
           <Tooltip.Provider>
             <Tooltip.Root>
@@ -33,7 +33,7 @@ function Badges() {
                 >
                   <Tilt
                     options={defaultOptions}
-                    className="w-fit rounded-full cursor-pointer flex items-center justify-center text-7xl"
+                    className="w-fit rounded-full cursor-pointer text-xs flex items-center justify-center md:text-7xl"
                   >
                     <img src={item.image} alt={item.name} className="h-36" />
                   </Tilt>

@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 function Blog() {
   return (
-    <div className="bg-gray-50 px-10 py-10">
+    <div className="bg-gray-50 px-5 md:px-10 py-10">
       <div class="flex flex-col">
         <div class="h-1 ps-5 bg-gray-300 rounded overflow-hidden">
           <div class="w-24 h-full bg-[#82a9ec]"></div>

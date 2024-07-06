@@ -9,7 +9,7 @@ function Abstract() {
   });
   return (
     <div className="pb-12 md:pb-24 px-5 md:px-12">
-      <h1 className="text-[#203354] text-start ps-4 border-s-4 border-[#203354] w-fit font-semibold text-2xl md:text-5xl mb-12 min-[500px]:text-3xl leading-tight">
+      <h1 className="text-[#203354] text-center md:ps-4 md:border-s-4 md:border-[#203354] md:w-fit font-semibold  md:text-5xl mb-10 text-3xl leading-tight">
         My Works in a Nutshell
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:grid-cols-3 xl:grid-cols-4">

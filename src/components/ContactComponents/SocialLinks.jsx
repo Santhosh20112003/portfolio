@@ -9,16 +9,16 @@ function SocialLinks() {
           React me out Here !
         </h1>
 
-        <div class="grid grid-cols-1 gap-8 md:grid-cols-2  xl:grid-cols-5">
+        <div class="grid grid-cols-1 gap-6 md:gap-8 md:grid-cols-2  xl:grid-cols-5">
           {social.map((item) => (
             <a
               href={item.link}
               title={item.name}
               target="_blank"
-              class={`text-gray-600 hover:shadow-md transition-shadow flex justify-center gap-5 items-center border border-solid border-gray-200 h-24 rounded-2xl`}
+              class={`text-gray-600 hover:shadow-md transition-shadow flex justify-center gap-3 md:gap-5 items-center border border-solid border-gray-200 h-20 md:h-24 rounded-2xl`}
             >
-              <i className={`${item.svgcode} text-4xl`}></i>
-              <p className="text-2xl">{item.name}</p>
+              <i className={`${item.svgcode} text-2xl md:text-4xl`}></i>
+              <p className="text-lg md:text-2xl">{item.name}</p>
             </a>
           ))}
         </div>

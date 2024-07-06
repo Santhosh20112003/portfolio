@@ -13,7 +13,7 @@ function Collegue() {
         <h1 className="text-[2rem] h-fit hidden md:block pl-2 border-l-[6px] border-[#82a9ec] w-fit md:text-[4.9rem] vertical break-words leading-[1.2] tracking-[6px] uppercase rotate-180">
         Remarks
         </h1>
-        <h1 className="text-[3rem] h-fit text-[#82a9ec] md:hidden pl-4 border-l-[6px] border-[#82a9ec] w-fit leading-[3.5rem] tracking-[6px] uppercase">
+        <h1 className="text-[3rem] h-fit text-[#82a9ec] md:hidden pl-4 border-l-[5px] border-[#82a9ec] w-fit leading-[3.5rem] tracking-[3px] uppercase">
         Remarks
         </h1>
         <div className="w-full md:w-[80%] hidden md:flex items-center justify-center">

@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 
 function Hero() {
   return (
-    <section class="md:relative pt-20 pb-16 bg-gradient-to-b from-[#203354] to-[#3c5f9b]">
+    <section class="md:relative pt-16 md:pt-20 pb-16 bg-gradient-to-b from-[#203354] to-[#3c5f9b]">
       <div class="w-full px-5 lg:px-11 mx-auto max-md:px-4">
         
-        <h1 class="text-white text-center font-semibold text-3xl md:text-4xl mb-3 min-[500px]:text-5xl leading-tight">
+        <h1 class="text-white text-center font-semibold text-2xl md:text-4xl mb-3 min-[500px]:text-5xl leading-tight">
           Discover how My Work can benefit you !!
         </h1>
-        <p className="text-gray-300 text-center md:text-lg mb-10 md:mb-16 leading-tight">
+        <p className="text-gray-300 text-center text-sm md:text-lg mb-10 md:mb-16 leading-tight">
           Let's discuss how I can contribute to your creative vision.
         </p>
 

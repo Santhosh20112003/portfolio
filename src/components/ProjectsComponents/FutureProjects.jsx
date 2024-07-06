@@ -9,7 +9,7 @@ function FutureProjects() {
   
   return (
     <div className="pb-12 md:pb-24 px-5 md:px-12" >
-      <h1 className="text-[#203354] text-start ps-4 border-s-4 border-[#203354] w-fit font-semibold text-2xl md:text-5xl mb-12 min-[500px]:text-3xl leading-tight">
+      <h1 className="text-[#203354] text-center md:ps-4 md:border-s-4 md:border-[#203354] md:w-fit font-semibold  md:text-5xl mb-10 text-3xl leading-tight">
         Future Projects
       </h1>
       <div className="flex items-center flex-col rounded-lg md:bg-gray-200 gap-12">

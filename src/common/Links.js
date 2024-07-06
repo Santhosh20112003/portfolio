@@ -477,9 +477,8 @@ export const badges = [
   },
   {
     name: "Cloud and Virtualization Concepts",
-    image:
-      "https://ik.imagekit.io/vituepzjm/santhosh%20badges/vmware_page-0001.jpg?updatedAt=1719856128640",
-    link: "https://ik.imagekit.io/vituepzjm/santhosh%20badges/it-academy-cloud-and-virtualization-concepts.png?updatedAt=1719916742501",
+    image:"https://ik.imagekit.io/vituepzjm/santhosh%20badges/it-academy-cloud-and-virtualization-concepts.png?updatedAt=1719916742501",
+    link: "https://www.credly.com/badges/dfd4fdda-90f8-4a79-993e-39b6fdd0908f/public_url",
   },
 ];
 

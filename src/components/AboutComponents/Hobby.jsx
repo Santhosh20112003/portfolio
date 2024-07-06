@@ -9,10 +9,10 @@ function Hobby() {
     // document.title = "IETE - About";
   });
   return (
-    <section class="py-16">
+    <section class="py-12 md:py-16">
       <div class="mx-auto max-w-[85rem] px-4 sm:px-6 lg:px-8">
         <div class="md:mb-20 mb-10 text-center">
-          <h2 class="text-gray-600 text-center capitalize text-2xl md:text-4xl font-bold leading-normal lg:text-start mb-5 md:mb-10">
+          <h2 class="text-gray-600 text-center capitalize text-3xl md:text-4xl font-bold leading-normal lg:text-start mb-5 md:mb-10">
             My Hobbies
           </h2>
         </div>

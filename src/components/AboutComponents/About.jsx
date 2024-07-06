@@ -2,8 +2,8 @@ import React from "react";
 
 function Hero() {
   return (
-    <section class="py-12 relative xl:mr-0 lg:mr-5 mr-0">
-      <div class="w-full px-4 md:px-5 lg:px-24 mx-auto">
+    <section class="md:py-12 pt-12 pb-5 relative xl:mr-0 lg:mr-5 mr-0">
+      <div class="w-full px-6 lg:px-24 mx-auto">
         <div class="w-full justify-start items-center xl:gap-12 gap-10 grid lg:grid-cols-2 grid-cols-1">
           <div class="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
             <div class="w-full flex-col justify-center items-start gap-8 flex">

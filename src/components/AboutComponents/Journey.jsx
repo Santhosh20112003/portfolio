@@ -25,16 +25,16 @@ function Journey() {
               />
             </div>
             <div className="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-4 rounded border border-slate-200 shadow">
-              <div className="flex items-center justify-between space-x-2 mb-1">
+              <div className="flex md:items-center flex-col md:flex-row justify-between space-y-2 md:space-y-0 md:space-x-2 mb-1">
                 <div className="font-bold text-lg md:text-xl text-gray-600 capitalize">
                   {item.title}
                 </div>
-                <time className="font-caveat text-xs md:text-base font-medium text-[#203354]">
+                <time className="font-caveat text-sm md:text-base font-semibold md:font-medium text-[#203354]">
                   {item.date}
                 </time>
               </div>
               <div
-                className="text-slate-500"
+                className="text-slate-500 text-sm md:text-base"
                 dangerouslySetInnerHTML={{ __html: item.description }}
               />
             </div>

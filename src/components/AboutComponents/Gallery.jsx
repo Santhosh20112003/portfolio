@@ -8,7 +8,7 @@ function Gallery() {
   });
   return (
     <div className="">
-      <section class="pb-12 px-5">
+      <section class="md:pb-12 px-5">
         <div className="text-center mb-12">
           <p
             data-aos="fade-zoom-in"
@@ -28,7 +28,7 @@ function Gallery() {
               data-aos-duration="1000"
               data-aos-delay="100"
               data-aos="fade-up"
-              class="sm:col-span-2 bg-cover relative group bg-center h-[350px] grayscale hover:grayscale-0 transition-all ease-linear duration-200 cursor-pointer  rounded-lg flex justify-end flex-col px-5 py-2 bg-[url(https://ik.imagekit.io/vituepzjm/431492999_416910024168937_3701154458708804327_n.jpeg?updatedAt=1719518713064)]"
+              class="sm:col-span-2 bg-cover relative group md:bg-center h-[350px] grayscale hover:grayscale-0 transition-all ease-linear duration-200 cursor-pointer  rounded-lg flex justify-end flex-col px-5 py-2 bg-left bg-[url(https://ik.imagekit.io/vituepzjm/431492999_416910024168937_3701154458708804327_n.jpeg?updatedAt=1719518713064)]"
             >
               <span className="w-fit h-fit px-3 group-hover:bg-opacity-65 group-hover:bg-[#212121] py-2">
                 <h6 class="font-medium group-hover:opacity-100 transition-all ease-linear duration-200 opacity-0 text-xl text-white ">
@@ -65,7 +65,7 @@ function Gallery() {
             >
               <span className="w-fit h-fit px-3 group-hover:bg-opacity-65 group-hover:bg-[#212121] py-2">
                 <h6 class="font-medium group-hover:opacity-100 transition-all ease-linear duration-200 opacity-0 text-xl text-white ">
-                  Shuttle Match
+                Badminton Match
                 </h6>
                 <p class="text-base font-mono group-hover:opacity-100 transition-all ease-linear duration-200 opacity-0 font-normal text-white/70">
                   February, 2024
