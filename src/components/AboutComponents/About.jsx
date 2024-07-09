@@ -14,10 +14,10 @@ function Hero() {
                   </h2>
                   <p class="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
                     a passionate full-stack developer with a keen eye for UI/UX
-                    design. I'm skilled in a range of technologies, including
+                    design. I'm skilled in a range of technologies including
                     JavaScript, React, Angular, Node.js, and more, enabling me
                     to create exceptional web experiences from start to finish.
-                    My strengths lie in user-centered design, problem-solving,
+                    My strengths lies on user-centered design, problem-solving,
                     and collaboration. I'm always eager to learn and expand my
                     skillset, and I'm excited to connect with other developers
                     and build amazing web solutions together.

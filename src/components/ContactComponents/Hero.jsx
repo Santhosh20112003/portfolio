@@ -41,7 +41,7 @@ function Hero() {
             <h5 class="text-[#203354] text-xl break-all font-semibold leading-8 mb-3 transition-all duration-500 group-hover:text-white">
               +91 9043112861
             </h5>
-            <p class="text-[#203354] break-all text-sm font-normal leading-5 transition-all duration-500 group-hover:text-white">
+            <p class="text-[#203354] break-words break-all text-sm font-normal leading-5 transition-all duration-500 group-hover:text-white">
               I'm eager to learn how your insights can contribute to my artistic
               evolution.
             </p>
@@ -73,7 +73,7 @@ function Hero() {
             <h5 class="text-[#203354] text-xl break-all font-semibold leading-8 mb-3 transition-all duration-500 group-hover:text-white">
               shamugamsanthosh22@gmail.com
             </h5>
-            <p class="text-[#203354] break-all text-sm font-normal leading-5 transition-all duration-500 group-hover:text-white">
+            <p class="text-[#203354] break-words  text-sm font-normal leading-5 transition-all duration-500 group-hover:text-white">
               Let's brainstorm how your creativity can inspire and shape my
               creative vision.
             </p>
@@ -103,7 +103,7 @@ function Hero() {
             <h5 class="text-[#203354] text-xl break-all font-semibold leading-8 mb-3 transition-all duration-500 group-hover:text-white">
               Chennai , Tamil Nadu
             </h5>
-            <p class="text-[#203354] text-sm break-all font-normal leading-5 transition-all duration-500 group-hover:text-white">
+            <p class="text-[#203354] text-sm break-words font-normal leading-5 transition-all duration-500 group-hover:text-white">
               I'd love to hear your thoughts on how we can collaborate to expand
               my creative horizons.
             </p>

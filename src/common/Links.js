@@ -159,7 +159,7 @@ export const journeyData = [
     title: "Found my Domain Of Intrest",
     date: "01/2020",
     description:
-      "My passion for software development ignited after completing my SSLC, leading me to choose the Computer Science group in 11th standard. I'm excited to delve deeper into this domain, eager to learn about the intricacies of coding and building innovative software solutions. This journey marks the start of my pursuit of a career in this exciting and ever-evolving field.",
+      "My passion for software development ignited after completing my SSLC, leading me to choose the Computer Science group in my 11th standard. I was excited to delve deeper into this domain, was eager to learn about the intricacies of coding and building innovative software solutions. This journey marked the start of my pursuit of a career in this exciting and ever-evolving field.",
     svg: `<svg xmlns="http://www.w3.org/2000/svg"  width="16" height="16" viewBox="0 0 512 512"><path d="M184 0c30.9 0 56 25.1 56 56V456c0 30.9-25.1 56-56 56c-28.9 0-52.7-21.9-55.7-50.1c-5.2 1.4-10.7 2.1-16.3 2.1c-35.3 0-64-28.7-64-64c0-7.4 1.3-14.6 3.6-21.2C21.4 367.4 0 338.2 0 304c0-31.9 18.7-59.5 45.8-72.3C37.1 220.8 32 207 32 192c0-30.7 21.6-56.3 50.4-62.6C80.8 123.9 80 118 80 112c0-29.9 20.6-55.1 48.3-62.1C131.3 21.9 155.1 0 184 0zM328 0c28.9 0 52.6 21.9 55.7 49.9c27.8 7 48.3 32.1 48.3 62.1c0 6-.8 11.9-2.4 17.4c28.8 6.2 50.4 31.9 50.4 62.6c0 15-5.1 28.8-13.8 39.7C493.3 244.5 512 272.1 512 304c0 34.2-21.4 63.4-51.6 74.8c2.3 6.6 3.6 13.8 3.6 21.2c0 35.3-28.7 64-64 64c-5.6 0-11.1-.7-16.3-2.1c-3 28.2-26.8 50.1-55.7 50.1c-30.9 0-56-25.1-56-56V56c0-30.9 25.1-56 56-56z"/></svg>`,
   },
   {
@@ -665,13 +665,24 @@ export const projects = [
     banner:
       "https://ik.imagekit.io/vituepzjm/Santech/2.png?updatedAt=1720115226217",
   },
+  {
+    name: "SanTech API",
+    short_desc: "API Testing Tool",
+    desc: "Optimize your workflow with a tool for testing and validating SanTech APIs, including execution and a user-friendly interface.",
+    technologies: ["React", "JavaScript", "Tailwindcss", "Vercel", "Axios"],
+    link: "https://santechapitool.vercel.app/",
+    image:
+      "https://ik.imagekit.io/vituepzjm/Santech/image.png?updatedAt=1720546426088",
+    banner:
+      "https://ik.imagekit.io/vituepzjm/Santech/SanTech%20Api%20(3).png?updatedAt=1720546126602",
+  },
 ];
 
 export const futureprojects = [
   {
     name: "Kart.Qr",
     short_desc: "Qr Based Authenticated Ecommerce Application",
-    desc: "Kart.Qr is an Quick Response code based authenticated Ecommerce app where you can purchase , Experience and sell products its an AR,Product Analyzation And Artificial Inteligence Based Ecommerce app so the Experience on using this will be on another level.",
+    desc: "Kart.Qr is a Quick Response code based authenticated Ecommerce app where you can purchase ,Experience and sell products. It's an AR , Product Analyzation And Artificial Inteligence Based Ecommerce app so the Experience on using this will be on another level.",
     link: "https://ik.imagekit.io/vituepzjm/SANTHOSH-TECHNOLOGIES/kart.qr-final.pdf",
     image:
       "https://ik.imagekit.io/vituepzjm/Santech/Untitled%20design%20(8).png?updatedAt=1720123859751",

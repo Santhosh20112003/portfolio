@@ -38,6 +38,12 @@ function Gallery() {
                   March, 2024
                 </p>
               </span>
+              <h1 className="absolute bottom-3 hidden lg:block right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
+                Hover me
+              </h1>
+              <h1 className="absolute bottom-3 block lg:hidden right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
+                Click me
+              </h1>
             </div>
             <div
               data-aos-duration="1000"
@@ -53,8 +59,11 @@ function Gallery() {
                   April, 2024
                 </p>
               </span>
-              <h1 className="absolute bottom-3 right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
+              <h1 className="absolute bottom-3 hidden lg:block right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
                 Hover me
+              </h1>
+              <h1 className="absolute bottom-3 block lg:hidden right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
+                Click me
               </h1>
             </div>
             <div
@@ -71,8 +80,11 @@ function Gallery() {
                   February, 2024
                 </p>
               </span>
-              <h1 className="absolute bottom-3 right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
+              <h1 className="absolute bottom-3 hidden lg:block right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
                 Hover me
+              </h1>
+              <h1 className="absolute bottom-3 block lg:hidden right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
+                Click me
               </h1>
             </div>
             <div data-aos-duration="1000"
@@ -85,8 +97,11 @@ function Gallery() {
                   April, 2024
                 </p>
               </span>
-              <h1 className="absolute bottom-3 right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
+              <h1 className="absolute bottom-3 hidden lg:block right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
                 Hover me
+              </h1>
+              <h1 className="absolute bottom-3 block lg:hidden right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
+                Click me
               </h1>
             </div>
             <div data-aos-duration="1000"
@@ -99,8 +114,11 @@ function Gallery() {
                   March, 2023
                 </p>
               </span>
-              <h1 className="absolute bottom-3 right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
+              <h1 className="absolute bottom-3 hidden lg:block right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
                 Hover me
+              </h1>
+              <h1 className="absolute bottom-3 block lg:hidden right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
+                Click me
               </h1>
             </div>
             <div data-aos-duration="1000"
@@ -113,8 +131,11 @@ function Gallery() {
                   January, 2023
                 </p>
               </span>
-              <h1 className="absolute bottom-3 right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
+              <h1 className="absolute bottom-3 hidden lg:block right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
                 Hover me
+              </h1>
+              <h1 className="absolute bottom-3 block lg:hidden right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
+                Click me
               </h1>
             </div>
             <div data-aos-duration="1000"
@@ -127,8 +148,11 @@ function Gallery() {
                   January, 2022
                 </p>
               </span>
-              <h1 className="absolute bottom-3 right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
+              <h1 className="absolute bottom-3 hidden lg:block right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
                 Hover me
+              </h1>
+              <h1 className="absolute bottom-3 block lg:hidden right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
+                Click me
               </h1>
             </div>
             <div data-aos-duration="1000"
@@ -141,8 +165,11 @@ function Gallery() {
                   January, 2021
                 </p>
               </span>
-              <h1 className="absolute bottom-3 right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
+              <h1 className="absolute bottom-3 hidden lg:block right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
                 Hover me
+              </h1>
+              <h1 className="absolute bottom-3 block lg:hidden right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
+                Click me
               </h1>
             </div>
             <div data-aos-duration="1000"
@@ -155,8 +182,11 @@ function Gallery() {
                   August, 2022
                 </p>
               </span>
-              <h1 className="absolute bottom-3 right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
+              <h1 className="absolute bottom-3 hidden lg:block right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
                 Hover me
+              </h1>
+              <h1 className="absolute bottom-3 block lg:hidden right-5 group-hover:opacity-0 font-semibold transition-all ease-linear bg-[#212121] bg-opacity-60 rounded-lg px-3 py-1 duration-200 text-white">
+                Click me
               </h1>
             </div>
           </div>

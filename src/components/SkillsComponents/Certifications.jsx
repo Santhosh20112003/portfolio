@@ -24,7 +24,7 @@ function Certifications() {
             <div class=" transition-all duration-700 translate-y-full top-0 right-0 left-0 absolute z-10"></div>
             <Dialog.Root>
               <Dialog.Trigger asChild>
-                <span className="">
+                <span className="cursor-pointer">
                   <img
                     src={item.image}
                     class="transition-all object-cover group-hover:object-top h-[200px] brightness-90 duration-700 w-full"
