@@ -13,6 +13,7 @@ import Skills from "./components/Skills";
 import Resume from "./components/Resume";
 import ScrollTop from "./components/ScrollTop";
 import toast, { Toaster } from "react-hot-toast";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   useEffect(() => {
@@ -34,6 +35,7 @@ function App() {
   }, []);
   return (
     <div>
+      <Analytics />
       <Router>
         <Routes>
           <Route path="" element={<Navigate to="home" />} />
