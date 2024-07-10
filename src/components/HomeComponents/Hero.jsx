@@ -9,8 +9,8 @@ function Hero() {
 
   const particlesLoaded = useCallback(async (container) => {}, []);
   return (
-    <div id="home" className="w-full">
-      <Particles
+    <div id="home" className="w-full bg-gradient-to-b from-[#203354] to-[#17263f]">
+      {/* <Particles
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
@@ -592,7 +592,7 @@ function Hero() {
             },
           },
         }}
-      />
+      /> */}
       <section class="text-gray-600 h-[90vh] body-font">
         <div class="mx-auto flex p-5 md:flex-row flex-col items-center justify-evenly">
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 ">

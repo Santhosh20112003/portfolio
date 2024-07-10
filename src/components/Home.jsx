@@ -9,7 +9,7 @@ import Blog from "./HomeComponents/Blog";
 import Collegue from "./HomeComponents/Collegue";
 import CTA from "./HomeComponents/CTA";
 import Footer from "./HomeComponents/Footer";
-import toast from "react-hot-toast";
+
 
 const Home = () => {
   useEffect(() => {
@@ -19,12 +19,12 @@ const Home = () => {
     });
   }, []);
   return (
-    <div>
+    <div className="">
       <Header />
       <Hero />
       <Quote />
-      <Blog />
       <Testimonial />
+      <Blog />
       <Collegue />
       <CTA />
       <Footer />

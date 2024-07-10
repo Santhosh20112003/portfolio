@@ -24,7 +24,7 @@ function Quote() {
 
       <p className="text-2xl text-center tracking-[2px] md:tracking-[3px] bg-gradient-to-r from-[#2b3b58] to-[#203354] text-transparent bg-clip-text leading-[50px] md:leading-[60px] lg:leading-[80px] md:text-4xl lg:text-5xl font-extrabold  text-[#203354] uppercase">
         It's not at all important to get it right the first time, It's Visually
-        important to get it right the last time ! <div className="text-4xl md:text-4xl mt-6 lg:text-6xl">❤️</div>
+        important to get it right the last time   ❤️
       </p>
     </div>
   );

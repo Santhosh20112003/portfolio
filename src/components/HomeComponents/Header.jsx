@@ -12,7 +12,7 @@ function Header() {
     setOpen(!open);
   };
   return (
-    <div className="p-5">
+    <div className="p-5 bg-[#203354]">
       <header
         className={`border-gray-700 bg-opacity-25 bg-gray-600 w-100 border  z-[50]   p-3.5 backdrop-blur-lg rounded-xl flex items-center justify-between`}
       >

@@ -14,6 +14,7 @@ import Resume from "./components/Resume";
 import ScrollTop from "./components/ScrollTop";
 import toast, { Toaster } from "react-hot-toast";
 import { Analytics } from "@vercel/analytics/react";
+import PageProgress from "./components/PageProgress";
 
 function App() {
   useEffect(() => {
@@ -36,6 +37,7 @@ function App() {
   return (
     <div>
       <Analytics />
+      <PageProgress/>
       <Router>
         <Routes>
           <Route path="" element={<Navigate to="home" />} />

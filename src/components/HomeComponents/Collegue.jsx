@@ -25,7 +25,7 @@ function Collegue() {
             initialSlide={1}
             slidesPerView={"3"}
             autoplay={{
-              delay: 2500,
+              delay: 5000,
               disableOnInteraction: false,
             }}
             coverflowEffect={{
