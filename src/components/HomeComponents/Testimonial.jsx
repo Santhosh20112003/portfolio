@@ -213,8 +213,8 @@ function Testimonial() {
           </div>
         </Slider>
       </div>
-      <div className="block md:hidden">
-        <Slider {...settings3} className="mb-7 md:hidden">
+      <div className="block md:hidden ">
+        <Slider {...settings3} className="mb-7 md:hidden text-white">
           <div className=" px-5">
             <div className="bg-gray-200 bg-opacity-30 uppercase gap-3 flex justify-center items-center rounded-2xl  py-5">
               <i className="fab fa-react text-2xl text-[#5ed3f3]"></i>
