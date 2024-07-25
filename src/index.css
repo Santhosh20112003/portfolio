@@ -18,6 +18,7 @@ animation: scaleon 3s ease-in-out infinite;
 .cc-1si9v{
   opacity: 0 !important;
   display: none !important;
+  transform: scale(0) !important;
 }
 
 .cc-1kqps{
