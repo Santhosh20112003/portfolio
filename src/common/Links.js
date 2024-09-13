@@ -102,9 +102,9 @@ export const products = [
     logo: "https://ik.imagekit.io/vituepzjm/newskaro-.png?updatedAt=1712479319152",
   },
   {
-    name: "SanTech ApiTool",
-    link: "https://santechapitool.vercel.app/",
-    logo: "https://ik.imagekit.io/vituepzjm/Untitled_design__6_-removebg-preview.png?updatedAt=1710598851184",
+    name: "Scribby",
+    link: "https://scribbyy.vercel.app/",
+    logo: "https://ik.imagekit.io/vituepzjm/Scribby/7.svg?updatedAt=1722814793279",
   },
   {
     name: "Insightful Blog",
@@ -477,7 +477,8 @@ export const badges = [
   },
   {
     name: "Cloud and Virtualization Concepts",
-    image:"https://ik.imagekit.io/vituepzjm/santhosh%20badges/it-academy-cloud-and-virtualization-concepts.png?updatedAt=1719916742501",
+    image:
+      "https://ik.imagekit.io/vituepzjm/santhosh%20badges/it-academy-cloud-and-virtualization-concepts.png?updatedAt=1719916742501",
     link: "https://www.credly.com/badges/dfd4fdda-90f8-4a79-993e-39b6fdd0908f/public_url",
   },
 ];
@@ -549,6 +550,24 @@ export const abstract = [
 ];
 
 export const projects = [
+  {
+    name: "Scribby",
+    short_desc: "Your AI Notes App",
+    desc: "Scribby: Your AI-powered note-taking superhero. Collaborate, generate notes, manage tools, and create books. Unlock your productivity.",
+    technologies: [
+      "React",
+      "Tailwindcss",
+      "Firebase",
+      "Gemini Ai",
+      "Cloud Storage",
+      "Editor.JS",
+    ],
+    link: "https://scribbyy.vercel.app/home",
+    image:
+      "https://ik.imagekit.io/vituepzjm/scribbybanner.png?updatedAt=1726252679900",
+    banner:
+      "https://ik.imagekit.io/vituepzjm/SanTech%20Api%20(4).png?updatedAt=1726252726113",
+  },
   {
     name: "Insightful Blog",
     short_desc: "Blogging Application",

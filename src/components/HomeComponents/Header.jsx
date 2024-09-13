@@ -29,11 +29,10 @@ function Header() {
         <span className="hidden md:flex md:mr-4 items-center gap-5">
           {Links.map((link) => (
             <a
-              className={` ${
-                location.pathname.includes(link.link)
-                  ? "uppercase font-semibold"
-                  : ""
-              }  tracking-wide text-gray-300  hover:border-gray-200  border-b-2 border-transparent font-normal  text-lg `}
+              className={` ${location.pathname.includes(link.link)
+                ? "uppercase font-semibold"
+                : ""
+                }  tracking-wide text-gray-300  hover:border-gray-200  border-b-2 border-transparent font-normal  text-lg `}
               href={link.link}
               key={link.name}
             >
@@ -68,11 +67,10 @@ function Header() {
               >
                 <DropdownMenu.Arrow className="fill-white me-24" />
                 <DropdownMenu.Item
-                  className={`${
-                    location.pathname.includes("/resume/preview")
-                      ? "bg-[#203354] text-white"
-                      : ""
-                  }  text-sm leading-none text-[#203354] mb-1 rounded-md py-2 px-2 gap-10 select-none outline-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:bg-[#203354] data-[highlighted]:text-violet1`}
+                  className={`${location.pathname.includes("/resume/preview")
+                    ? "bg-[#203354] text-white"
+                    : ""
+                    }  text-sm leading-none text-[#203354] mb-1 rounded-md py-2 px-2 gap-10 select-none outline-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:bg-[#203354] data-[highlighted]:text-violet1`}
                 >
                   <Link
                     to={"/resume/preview"}
@@ -185,18 +183,17 @@ function Header() {
             </Dialog.Trigger>
             <Dialog.Portal>
               <Dialog.Overlay className="bg-blackA6 data-[state=open]:animate-overlayShow fixed inset-0" />
-              <Dialog.Content className="data-[state=open]:animate-contentShow  fixed top-[50%] left-[50%] max-h-[85vh] w-[90vw] max-w-[450px] translate-x-[-50%] translate-y-[-50%] rounded-[6px] bg-white p-[25px] shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,_hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] focus:outline-none">
+              <Dialog.Content className="data-[state=open]:animate-contentShow z-[100000] fixed top-[50%] left-[50%] max-h-[85vh] w-[90vw] max-w-[450px] translate-x-[-50%] translate-y-[-50%] rounded-[6px] bg-white p-[25px] shadow-[hsl(206_22%_7%_/_35%)_0px_10px_38px_-10px,_hsl(206_22%_7%_/_20%)_0px_10px_20px_-15px] focus:outline-none">
                 <li className=" md:text-xl flex flex-col  items-center p-2 gap-3">
                   {Links.map((link) => (
                     <Dialog.Close asChild>
                       <a
                         href={link.link}
                         key={link.name}
-                        className={` ${
-                          location.pathname.includes(link.link)
-                            ? "bg-[#203354] text-[#fff]"
-                            : ""
-                        }   w-full text-center uppercase p-3 rounded-md text-base`}
+                        className={` ${location.pathname.includes(link.link)
+                          ? "bg-[#203354] text-[#fff]"
+                          : ""
+                          }   w-full text-center uppercase p-3 rounded-md text-base`}
                       >
                         {link.name}
                       </a>
@@ -227,16 +224,15 @@ function Header() {
 
                     <DropdownMenu.Portal>
                       <DropdownMenu.Content
-                        className=" bg-white rounded-md p-[5px] shadow will-change-[opacity,transform] data-[side=top]:animate-slideDownAndFade data-[side=right]:animate-slideLeftAndFade data-[side=bottom]:animate-slideUpAndFade data-[side=left]:animate-slideRightAndFade"
+                        className=" bg-white rounded-md  z-[1000000] p-[5px] shadow will-change-[opacity,transform] data-[side=top]:animate-slideDownAndFade data-[side=right]:animate-slideLeftAndFade data-[side=bottom]:animate-slideUpAndFade data-[side=left]:animate-slideRightAndFade"
                         sideOffset={10}
                       >
                         <DropdownMenu.Arrow className="fill-gray-300 " />
                         <DropdownMenu.Item
-                          className={`${
-                            location.pathname.includes("/resume/preview")
-                              ? "bg-[#203354] text-white"
-                              : ""
-                          }  text-sm leading-none text-[#203354] mb-1 rounded-md py-2 px-2 gap-10 select-none outline-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:bg-[#203354] data-[highlighted]:text-violet1`}
+                          className={`${location.pathname.includes("/resume/preview")
+                            ? "bg-[#203354] text-white"
+                            : ""
+                            }  text-sm leading-none text-[#203354] mb-1 rounded-md py-2 px-2 gap-10 select-none outline-none data-[disabled]:text-mauve8 data-[disabled]:pointer-events-none data-[highlighted]:bg-[#203354] data-[highlighted]:text-violet1`}
                         >
                           <Link
                             to={"/resume/preview"}
