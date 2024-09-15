@@ -335,6 +335,13 @@ export const Devpatterns = [
 
 export const certificates = [
   {
+    name: "Journey to Cloud",
+    company: "IBM",
+    logo: "https://ik.imagekit.io/vituepzjm/Santech/images%20(3).png?updatedAt=1726395214342",
+    image:
+      "https://ik.imagekit.io/vituepzjm/Santech/image.png?updatedAt=1726394772766",
+  },
+  {
     name: "Crack Frontend Interview",
     company: "Namaste Dev",
     logo: "https://ik.imagekit.io/vituepzjm/favicon(3).ico?updatedAt=1719862426059",
@@ -421,6 +428,12 @@ export const certificates = [
 ];
 
 export const badges = [
+  {
+    name: "IBM Journey to Cloud",
+    image:
+      "https://ik.imagekit.io/vituepzjm/Santech/image%20(3).png?updatedAt=1726394404518",
+    link: "https://www.credly.com/badges/acc4993c-c041-4eab-ba67-c2c6fecaf8ab/public_url",
+  },
   {
     name: "the Gemini API Developer Competition",
     image:
