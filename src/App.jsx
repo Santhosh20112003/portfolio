@@ -15,6 +15,7 @@ import ScrollTop from "./components/ScrollTop";
 import toast, { Toaster } from "react-hot-toast";
 import { Analytics } from "@vercel/analytics/react";
 import PageProgress from "./components/PageProgress";
+import Banner from "./components/Banner";
 
 function App() {
   useEffect(() => {
@@ -37,7 +38,8 @@ function App() {
   return (
     <div>
       <Analytics />
-      <PageProgress/>
+      <Banner />
+      <PageProgress />
       <Router>
         <Routes>
           <Route path="" element={<Navigate to="home" />} />

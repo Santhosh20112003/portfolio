@@ -113,7 +113,7 @@ function GithubProgress() {
       <span className="hidden xl:block">
         <GitHubCalendar
           username="Santhosh20112003"
-          year={2024}
+          year={2025}
           hideColorLegend={false}
           colorScheme={"light"}
           blockSize={17}
@@ -138,7 +138,7 @@ function GithubProgress() {
       <span className="hidden md:block xl:hidden">
         <GitHubCalendar
           username="Santhosh20112003"
-          year={2024}
+          year={2025}
           hideColorLegend={false}
           colorScheme={"light"}
           blockSize={20}
@@ -164,7 +164,7 @@ function GithubProgress() {
       <span className="hidden sm:block md:hidden">
         <GitHubCalendar
           username="Santhosh20112003"
-          year={2024}
+          year={2025}
           hideColorLegend={false}
           colorScheme={"light"}
           blockSize={16}
@@ -190,7 +190,7 @@ function GithubProgress() {
       <span className="block sm:hidden">
         <GitHubCalendar
           username="Santhosh20112003"
-          year={2024}
+          year={2025}
           hideColorLegend={true}
           colorScheme={"light"}
           blockSize={10}

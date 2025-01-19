@@ -64,12 +64,11 @@ export const social = [
     svgcode: "fab fa-whatsapp",
     color: "#4867aa",
   },
-
   {
-    name: "LinkedIn",
-    link: "https://www.linkedin.com/in/santhosh-shanmugam2003",
-    svgcode: "fab fa-linkedin-in",
-    color: "#0a63bc",
+    name: "Instagram",
+    link: "https://www.instagram.com/santhosh_shanmugam_20/?utm_source=qr",
+    svgcode: "fab fa-instagram",
+    color: "#f70075",
   },
   {
     name: "Google",
@@ -78,9 +77,24 @@ export const social = [
     color: "#4867aa",
   },
   {
-    name: "Instagram",
-    link: "https://www.instagram.com/santhosh_shanmugam_20/?utm_source=qr",
-    svgcode: "fab fa-instagram",
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/santhosh-shanmugam2003",
+    svgcode: "fab fa-linkedin-in",
+    color: "#0a63bc",
+  },
+
+  {
+    name: "Leetcode",
+    link: "https://leetcode.com/u/shanmugamsanthosh22/",
+    // svgcode: "fab fa-instagram",
+    image:
+      "https://ik.imagekit.io/vituepzjm/Santech/163828042-414b2a38-6d81-473c-9fd9-767a72187e26.png?updatedAt=1737314877324",
+    color: "#f70075",
+  },
+  {
+    name: "Hackerank",
+    link: "https://www.hackerrank.com/profile/santhosh20112003",
+    svgcode: "fab fa-hackerrank",
     color: "#f70075",
   },
 ];
@@ -96,10 +110,15 @@ export const products = [
     link: "https://cloudpoint.vercel.app/",
     logo: "https://ik.imagekit.io/vituepzjm/logo512.png?updatedAt=1706199991973",
   },
+  // {
+  //   name: "News Karo",
+  //   link: "https://newskaro.vercel.app/",
+  //   logo: "https://ik.imagekit.io/vituepzjm/newskaro-.png?updatedAt=1712479319152",
+  // },
   {
-    name: "News Karo",
-    link: "https://newskaro.vercel.app/",
-    logo: "https://ik.imagekit.io/vituepzjm/newskaro-.png?updatedAt=1712479319152",
+    name: "CodeSpark",
+    link: "https://codesparkk.vercel.app/home",
+    logo: "https://ik.imagekit.io/vituepzjm/Santech/codespark.png?updatedAt=1737313406455",
   },
   {
     name: "Scribby",
@@ -117,10 +136,15 @@ export const products = [
     logo: "https://ik.imagekit.io/vituepzjm/Jarvis.png?updatedAt=1719522978753",
   },
   {
-    name: "SanTech Learn",
-    link: "https://santhosh-learning.netlify.app/",
-    logo: "https://ik.imagekit.io/vituepzjm/logo-3.png?updatedAt=1719522979190",
+    name: "News Karo",
+    link: "https://newskaro.vercel.app/",
+    logo: "https://ik.imagekit.io/vituepzjm/newskaro-.png?updatedAt=1712479319152",
   },
+  // {
+  //   name: "CodeSpark",
+  //   link: "https://codesparkk.vercel.app/home",
+  //   logo: "https://ik.imagekit.io/vituepzjm/Santech/codespark.png?updatedAt=1737313406455",
+  // },
   {
     name: "Eesai Music",
     link: "https://eesai.netlify.app/",
@@ -335,6 +359,34 @@ export const Devpatterns = [
 
 export const certificates = [
   {
+    name: "Building GenAI Applications with MongoDB",
+    company: "Mongo University",
+    logo: "https://ik.imagekit.io/vituepzjm/favicon(2).ico?updatedAt=1719862395759",
+    image:
+      "https://ik.imagekit.io/vituepzjm/certificates/Santhosh%20Mongo%20DB%20Certificate_page-0001.jpg?updatedAt=1737309746804",
+  },
+  {
+    name: "Using Atlas Vector Search for RAG Applications",
+    company: "Mongo University",
+    logo: "https://ik.imagekit.io/vituepzjm/favicon(2).ico?updatedAt=1719862395759",
+    image:
+      "https://ik.imagekit.io/vituepzjm/certificates/Santhosh%20cert%203_page-0001.jpg?updatedAt=1737309770606",
+  },
+  {
+    name: "Introduction to AI and Vector Search",
+    company: "Mongo University",
+    logo: "https://ik.imagekit.io/vituepzjm/favicon(2).ico?updatedAt=1719862395759",
+    image:
+      "https://ik.imagekit.io/vituepzjm/certificates/santhosh%20cert%201_page-0001.jpg?updatedAt=1737309712842",
+  },
+  {
+    name: "Using Vector Search for Semantic Search",
+    company: "Mongo University",
+    logo: "https://ik.imagekit.io/vituepzjm/favicon(2).ico?updatedAt=1719862395759",
+    image:
+      "https://ik.imagekit.io/vituepzjm/certificates/Santhosh%20cert%202_page-0001.jpg?updatedAt=1737309586516",
+  },
+  {
     name: "Journey to Cloud",
     company: "IBM",
     logo: "https://ik.imagekit.io/vituepzjm/Santech/images%20(3).png?updatedAt=1726395214342",
@@ -429,6 +481,18 @@ export const certificates = [
 
 export const badges = [
   {
+    name: "GitHub Foundations",
+    image:
+      "https://ik.imagekit.io/vituepzjm/santhosh%20badges/GitHub%20Foundations?updatedAt=1737308678712",
+    link: "https://www.credly.com/badges/9f2e0883-d03d-4574-a50a-0041dc48d625/public_url",
+  },
+  {
+    name: "Building GenAI Applications with MongoDB",
+    image:
+      "https://ik.imagekit.io/vituepzjm/santhosh%20badges/mongodbgenAI?updatedAt=1737308398419",
+    link: "https://www.credly.com/badges/83ad5caf-f2e0-4dc4-b157-01beb68ef673/public_url",
+  },
+  {
     name: "IBM Journey to Cloud",
     image:
       "https://ik.imagekit.io/vituepzjm/Santech/image%20(3).png?updatedAt=1726394404518",
@@ -498,12 +562,17 @@ export const badges = [
 
 export const workshop = [
   {
+    name: "Oneyes Grand Hackathon 2024",
+    image:
+      "https://ik.imagekit.io/vituepzjm/Workshop/WhatsApp%20Image%202025-01-19%20at%2023.48.06_bd60d49f.jpg?updatedAt=1737310764655",
+  },
+  {
     name: "IETE Web Design Contest",
     image:
       "https://ik.imagekit.io/vituepzjm/Workshop/1696853930458.jpeg?updatedAt=1719857845114",
   },
   {
-    name: "Oneyes Grand Hackathon",
+    name: "Oneyes Grand Hackathon 2023",
     image:
       "https://ik.imagekit.io/vituepzjm/Workshop/SANTHOSH.S-1%20(1)_page-0001.jpg?updatedAt=1719856685466",
   },
@@ -560,9 +629,35 @@ export const abstract = [
     image:
       "https://ik.imagekit.io/vituepzjm/abstract/4_20240507_132728_0003.png?updatedAt=1719853736748",
   },
+  {
+    name: "Scribby",
+    image:
+      "https://ik.imagekit.io/vituepzjm/Santech/scribbyybanner.png?updatedAt=1737319451617",
+  },
 ];
 
 export const projects = [
+  {
+    name: "CodeSpark",
+    short_desc: "Your AI Skill Enhancer",
+    desc: "CodeSpace boosts coding with AI assistance, and smart code management; WebSpace offers templates and integrated note-taking for skill development.",
+    technologies: [
+      "React",
+      "Tailwindcss",
+      "Firebase",
+      "Gemini Ai",
+      "Cloud Storage",
+      "Editor.JS",
+      "Monaco Editor",
+      "Google OAuth",
+      "GitHub OAuth",
+    ],
+    link: "https://codesparkk.vercel.app",
+    image:
+      "https://ik.imagekit.io/vituepzjm/Santech/codesparkk?updatedAt=1737312644690",
+    banner:
+      "https://ik.imagekit.io/vituepzjm/Santech/CodeSpace123.png?updatedAt=1737312317517",
+  },
   {
     name: "Scribby",
     short_desc: "Your AI Notes App",
@@ -582,23 +677,6 @@ export const projects = [
       "https://ik.imagekit.io/vituepzjm/SanTech%20Api%20(4).png?updatedAt=1726252726113",
   },
   {
-    name: "Insightful Blog",
-    short_desc: "Blogging Application",
-    desc: "Insightful blog platform empowers seamless media management, API-driven access, and audio narration for authentic storytelling and knowledge-sharing.",
-    technologies: [
-      "React",
-      "Tailwindcss",
-      "Firebase",
-      "Express js",
-      "Supabase",
-    ],
-    link: "https://insightfulblog.vercel.app/home",
-    image:
-      "https://ik.imagekit.io/vituepzjm/Santech/insightful.png?updatedAt=1720110714854",
-    banner:
-      "https://ik.imagekit.io/vituepzjm/Insightful%20(1).png?updatedAt=1710734251884",
-  },
-  {
     name: "Cloud Point",
     short_desc: "Cloud Assert Management",
     desc: "Cloud Point - Efficiently manage and track assets in a cloud environment. Store, organize, and monitor your assets with ease.",
@@ -608,6 +686,23 @@ export const projects = [
       "https://ik.imagekit.io/vituepzjm/Santech/cloudpoint.png?updatedAt=1720113310597",
     banner:
       "https://ik.imagekit.io/vituepzjm/Santech/Copy%20of%20SanTech%20Api%20(2).png?updatedAt=1720114612285",
+  },
+  {
+    name: "Jarvis AI",
+    short_desc: "Your Helpful AI Assistant",
+    desc: "Jarvis, the friendly AI assistant from SanTech, simplifies your life with accurate information, task management, and personalized recommendations.",
+    technologies: [
+      "React",
+      "Tailwindcss",
+      "Gemini API",
+      "Radix-ui",
+      "react-hot-toast",
+    ],
+    link: "https://aijarvis.vercel.app/",
+    image:
+      "https://ik.imagekit.io/vituepzjm/Santech/jarvisai.png?updatedAt=1720114658444",
+    banner:
+      "https://ik.imagekit.io/vituepzjm/Copy%20of%20SanTech%20Api%20(1).png?updatedAt=1716279136447",
   },
   {
     name: "SanTech ApiHub",
@@ -631,21 +726,15 @@ export const projects = [
       "https://ik.imagekit.io/vituepzjm/Santech/SanTech%20Api%20(1).png?updatedAt=1720113311249",
   },
   {
-    name: "Jarvis AI",
-    short_desc: "Your Helpful AI Assistant",
-    desc: "Jarvis, the friendly AI assistant from SanTech, simplifies your life with accurate information, task management, and personalized recommendations.",
-    technologies: [
-      "React",
-      "Tailwindcss",
-      "Gemini API",
-      "Radix-ui",
-      "react-hot-toast",
-    ],
-    link: "https://aijarvis.vercel.app/",
+    name: "SanTech API",
+    short_desc: "API Testing Tool",
+    desc: "Optimize your workflow with a tool for testing and validating SanTech APIs, including execution and a user-friendly interface.",
+    technologies: ["React", "JavaScript", "Tailwindcss", "Vercel", "Axios"],
+    link: "https://santechapitool.vercel.app/",
     image:
-      "https://ik.imagekit.io/vituepzjm/Santech/jarvisai.png?updatedAt=1720114658444",
+      "https://ik.imagekit.io/vituepzjm/Santech/santechapiclient?updatedAt=1737312252508",
     banner:
-      "https://ik.imagekit.io/vituepzjm/Copy%20of%20SanTech%20Api%20(1).png?updatedAt=1716279136447",
+      "https://ik.imagekit.io/vituepzjm/Santech/SanTech%20Api%20(3).png?updatedAt=1720546126602",
   },
   {
     name: "Santhosh Gaming",
@@ -698,15 +787,21 @@ export const projects = [
       "https://ik.imagekit.io/vituepzjm/Santech/2.png?updatedAt=1720115226217",
   },
   {
-    name: "SanTech API",
-    short_desc: "API Testing Tool",
-    desc: "Optimize your workflow with a tool for testing and validating SanTech APIs, including execution and a user-friendly interface.",
-    technologies: ["React", "JavaScript", "Tailwindcss", "Vercel", "Axios"],
-    link: "https://santechapitool.vercel.app/",
+    name: "Insightful Blog",
+    short_desc: "Blogging Application",
+    desc: "Insightful blog platform empowers seamless media management, API-driven access, and audio narration for authentic storytelling and knowledge-sharing.",
+    technologies: [
+      "React",
+      "Tailwindcss",
+      "Firebase",
+      "Express js",
+      "Supabase",
+    ],
+    link: "https://insightfulblog.vercel.app/home",
     image:
-      "https://ik.imagekit.io/vituepzjm/Santech/image.png?updatedAt=1720546426088",
+      "https://ik.imagekit.io/vituepzjm/Santech/insightful.png?updatedAt=1720110714854",
     banner:
-      "https://ik.imagekit.io/vituepzjm/Santech/SanTech%20Api%20(3).png?updatedAt=1720546126602",
+      "https://ik.imagekit.io/vituepzjm/Insightful%20(1).png?updatedAt=1710734251884",
   },
 ];
 
@@ -729,3 +824,5 @@ export const futureprojects = [
       "https://ik.imagekit.io/vituepzjm/Santech/Untitled%20design%20(7).png?updatedAt=1720122894651",
   },
 ];
+
+export const message = `<span >Discover the future of education with CodeSpark! 🚀 Our cutting-edge AI-powered learning platform is now live <a href='https://codesparkk.vercel.app' target='_blank' style="text-decoration: underline;" className="underline" > Try&nbsp;now</a></span>`;

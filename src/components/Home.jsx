@@ -1,6 +1,4 @@
-import React, { useEffect, useState } from "react";
-import { Links } from "../common/Links";
-import { Link, useLocation } from "react-router-dom";
+import React, { useEffect } from "react";
 import Hero from "./HomeComponents/Hero";
 import Header from "./HomeComponents/Header";
 import Quote from "./HomeComponents/Quote";

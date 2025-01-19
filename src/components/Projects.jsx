@@ -6,6 +6,7 @@ import Abstract from "./ProjectsComponents/Abstract";
 import Projects2 from "./ProjectsComponents/Projects";
 import FutureProjects from "./ProjectsComponents/FutureProjects";
 import Products from "./ProjectsComponents/Products";
+import Media from "./ProjectsComponents/Media";
 
 function Projects() {
   useEffect(() => {
@@ -29,8 +30,12 @@ function Projects() {
         <Abstract />
       </div>
       <div className="bg-white">
+        <Media />
+      </div>
+      <div className="bg-white">
         <FutureProjects />
       </div>
+
       <div className="bg-white">
         <Products />
       </div>
