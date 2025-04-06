@@ -3,6 +3,7 @@ import Header from "./HomeComponents/Header";
 import { Viewer, Worker } from "@react-pdf-viewer/core";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import "./css/shine.css";
+import { Helmet } from "react-helmet";
 
 function Resume() {
   useEffect(() => {
@@ -11,8 +12,28 @@ function Resume() {
       behavior: "smooth",
     });
   }, []);
+
   return (
     <div className="bg-[#203354] w-full min-h-screen">
+      <Helmet>
+        <title>Resume | Santech</title>
+        <meta
+          name="description"
+          content="Explore my resume showcasing my skills, experience, and projects."
+        />
+        <meta
+          name="keywords"
+          content="resume, portfolio, skills, experience, projects, santech, santechh,santhosh resume, santhosh shanmugam resume,santech resume,santechh resume"
+        />
+        <meta property="og:title" content="Resume | My Portfolio" />
+        <meta
+          property="og:description"
+          content="Explore my resume showcasing my skills, experience, and projects."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={window.location.href} />
+        <link rel="canonical" href={window.location.href} />
+      </Helmet>
       <div>
         <Header />
       </div>

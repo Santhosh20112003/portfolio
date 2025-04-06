@@ -7,6 +7,7 @@ import Certifications from "./SkillsComponents/Certifications";
 import Badges from "./SkillsComponents/Badges";
 import WorkShopandTraining from "./SkillsComponents/WorkShopandTraining";
 import Hero from "./SkillsComponents/Hero";
+import { Helmet } from "react-helmet";
 
 function Skills() {
   useEffect(() => {
@@ -17,6 +18,16 @@ function Skills() {
   }, []);
   return (
     <div className="bg-white w-full h-screen">
+      <Helmet>
+        <title>Skills | Santech</title>
+        <meta name="description" content="Explore my technical skills, certifications, and training workshops." />
+        <meta name="keywords" content="skills, certifications, training, workshops, portfolio,santech, santech skills, santechh skills, santhosh skills,santhosh shanmugam skills" />
+        <meta property="og:title" content="Skills | My Portfolio" />
+        <meta property="og:description" content="Explore my technical skills, certifications, and training workshops." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={window.location.href} />
+        <link rel="canonical" href={window.location.href} />
+      </Helmet>
       <div className="bg-[#203354]">
         <Header />
       </div>

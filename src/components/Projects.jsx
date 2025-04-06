@@ -8,6 +8,7 @@ import FutureProjects from "./ProjectsComponents/FutureProjects";
 import Products from "./ProjectsComponents/Products";
 import Media from "./ProjectsComponents/Media";
 import Clients from "./ProjectsComponents/Clients";
+import { Helmet } from "react-helmet";
 
 function Projects() {
   useEffect(() => {
@@ -18,6 +19,16 @@ function Projects() {
   }, []);
   return (
     <div className="bg-[#203354] w-full h-screen">
+      <Helmet>
+        <title>Projects | Santech</title>
+        <meta name="description" content="Explore my portfolio of projects spanning web development, design, and more. See my work experience and technical expertise." />
+        <meta name="keywords" content="portfolio, projects, web development, programming, design,santech, santech projects, santechh projects, projects, santhosh projects,santhosh works,projects" />
+        <meta property="og:title" content="Projects | My Portfolio" />
+        <meta property="og:description" content="Explore my portfolio of projects spanning web development, design, and more." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={window.location.href} />
+        <link rel="canonical" href={window.location.href} />
+      </Helmet>
       <div className="">
         <Header />
       </div>
