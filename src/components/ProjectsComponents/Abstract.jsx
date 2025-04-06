@@ -8,7 +8,7 @@ function Abstract() {
     Aos.init();
   });
   return (
-    <div className="pb-12 md:pb-24 px-5 md:px-12">
+    <div className="pb-12 md:pb-24  max-w-7xl mx-auto px-5 md:px-12">
       <h1 className="text-[#203354] text-center md:ps-4 md:border-s-4 md:border-[#203354] md:w-fit font-semibold  md:text-5xl mb-10 text-3xl leading-tight">
         My Works in a Nutshell
       </h1>

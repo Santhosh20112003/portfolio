@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Products() {
   return (
     <section class="pb-16">
-      <div class="mx-auto max-w-[85rem] px-4 sm:px-6 lg:px-8">
+      <div class=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="md:mb-20 mb-10 text-center">
           <h1 class="md:text-4xl text-[1.7rem] capitalize md:leading-[3rem] text-gray-700 text-center font-bold">
             "Check Out My Products, They might be just what you need!"

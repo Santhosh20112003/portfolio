@@ -106,7 +106,7 @@ function GithubProgress() {
     },
   };
   return (
-    <div className="bg-white flex overflow-x-auto flex-col pb-12 md:pb-24 px-5 md:px-12 justify-center">
+    <div className="bg-white flex max-w-7xl mx-auto overflow-x-auto flex-col pb-12 md:pb-24 px-5 md:px-12 justify-center">
       <h1 class="text-[#203354] text-center md:ps-4 md:border-s-4 md:border-[#203354] md:w-fit font-semibold  md:text-5xl mb-10 text-3xl leading-tight">
         My Live GitHub Activity
       </h1>

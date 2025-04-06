@@ -3,8 +3,8 @@ import { social } from "../../common/Links";
 
 function SocialLinks() {
   return (
-    <section class="py-20 ">
-      <div class="mx-auto max-w-8xl px-4 sm:px-6 lg:px-8">
+    <section class="py-20">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 class="text-2xl text-center md:text-start md:text-xl ms-5 text-gray-600 font-semibold mb-10 underline ">
           React me out Here !
         </h1>

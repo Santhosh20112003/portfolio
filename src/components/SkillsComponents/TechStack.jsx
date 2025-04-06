@@ -11,11 +11,11 @@ import {
 
 function TechStack() {
   return (
-    <section className="md:px-5 px-6 lg:px-8 py-12">
+    <section className="md:px-5 max-w-7xl mx-auto px-6 lg:px-8 py-12">
       <h1 class="text-[#203354] text-center md:ps-4 md:border-s-4 md:border-[#203354] md:w-fit font-semibold  md:text-5xl mb-10 text-3xl leading-tight">
         My ToolBox
       </h1>
-      <div className="w-full  mx-auto">
+      <div className="w-full mx-auto">
         <div className="grid grid-cols-1 break-words sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-6">
           <div className="sm:col-span-4  border-2 border-gray-300 rounded-lg gap-3 grid-cols-1 lg:grid-cols-3 grid p-5 ">
             <div className="sm:col-span-2 order-2 gap-4 md:gap-0 lg:order-1 grid mt-5 lg:mt-0 grid-cols-2 sm:grid-cols-3 md:grid-cols-4">

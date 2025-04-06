@@ -2,7 +2,7 @@ import React from "react";
 
 function Form() {
   return (
-    <section class="pb-10 md:pb-24 pt-10 md:pt-16">
+    <section class="pb-10  md:pb-24 pt-10 md:pt-16">
       <div class="mx-auto max-w-7xl px-6 lg:px-8">
         <div class="grid lg:grid-cols-2 grid-cols-1 gap-x-24">
           <div class="lg:max-w-xl hidden md:flex relative rounded-xl w-full h-[550px]  items-center justify-center  bg-cover bg-no-repeat bg-[url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/096bc621-fe2b-4266-b44b-0e5b904f54c4/detvbeu-26691a10-6bcb-4346-bca0-efbd6a62012b.png/v1/fit/w_828,h_828,q_70,strp/cyber_spirit_by_autlyxart_detvbeu-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTkyMCIsInBhdGgiOiJcL2ZcLzA5NmJjNjIxLWZlMmItNDI2Ni1iNDRiLTBlNWI5MDRmNTRjNFwvZGV0dmJldS0yNjY5MWExMC02YmNiLTQzNDYtYmNhMC1lZmJkNmE2MjAxMmIucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.W8CwqqJn540LutZ9sZDY6itqy5IW4SQZRhsfff8N93U')] ">

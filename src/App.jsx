@@ -15,7 +15,7 @@ import ScrollTop from "./components/ScrollTop";
 import toast, { Toaster } from "react-hot-toast";
 import { Analytics } from "@vercel/analytics/react";
 import PageProgress from "./components/PageProgress";
-import Banner from "./components/Banner";
+import Notificationbanner from "./components/Banner";
 
 function App() {
   useEffect(() => {
@@ -37,10 +37,11 @@ function App() {
   }, []);
   return (
     <div>
-      <Analytics />
-      <Banner />
-      <PageProgress />
+
       <Router>
+        <Analytics />
+        <Notificationbanner />
+        <PageProgress />
         <Routes>
           <Route path="" element={<Navigate to="home" />} />
           <Route path="home" element={<Home />} />

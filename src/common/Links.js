@@ -825,4 +825,17 @@ export const futureprojects = [
   },
 ];
 
-export const message = `<span >Discover the future of education with CodeSpark! 🚀 Our cutting-edge AI-powered learning platform is now live <a href='https://codesparkk.vercel.app' target='_blank' style="text-decoration: underline;" className="underline" > Try&nbsp;now</a></span>`;
+export const clientprojects = [
+  {
+    name: "Mayilon Educational Consultant",
+    short_desc: "Educational counseling platform",
+    desc: "MEC (Mentors for Educational Counseling) is a dedicated educational consultancy committed to guiding students toward successful admissions into top universities in India and abroad. Our mission is to empower students with the right knowledge, resources, and support to achieve their academic and career aspirations. With a team of experienced counselors and educators, MEC offers personalized guidance in college admissions, course selection, and career planning. We provide comprehensive counseling, detailed insights into educational institutions and programs, and continuous support to ensure students make informed decisions throughout their academic journey.",
+    link: "https://mayilon.org",
+    image:"https://ik.imagekit.io/vituepzjm/MEC/santechhmec?updatedAt=1743935246434",
+  },
+];
+
+export const banner = {
+  message:`<span >Discover the future of education with CodeSpark! 🚀 Our cutting-edge AI-powered learning platform is now live </span>`,
+  link:'https://codesparkk.vercel.app'
+};

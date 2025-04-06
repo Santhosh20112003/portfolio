@@ -7,7 +7,7 @@ function Gallery() {
     Aos.init();
   });
   return (
-    <div className="">
+    <div className="max-w-7xl mx-auto">
       <section class="md:pb-12 px-5">
         <div className="text-center mb-12">
           <p

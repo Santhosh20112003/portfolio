@@ -52,8 +52,8 @@ function Testimonial() {
     rtl: true,
   };
   return (
-    <div className="w-full bg-[#203354] overflow-hidden py-20">
-      <div className="hidden md:block text-white">
+    <div className="w-full bg-[#203354]  overflow-hidden py-20">
+      <div className="hidden md:block  text-white">
         <Slider {...settings} className="mb-7 ">
           <div className=" px-5">
             <div className="bg-gray-200 bg-opacity-30 uppercase gap-3 flex justify-center items-center rounded-2xl  py-5">

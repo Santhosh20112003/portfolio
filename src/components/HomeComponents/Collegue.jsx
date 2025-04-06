@@ -8,8 +8,8 @@ import { slides } from "../../common/Links";
 
 function Collegue() {
   return (
-    <div className="w-full bg-[#203354] px-6 md:py-14  pb-12">
-      <div className="flex flex-col md:flex-row md:items-center justify-start md:gap-16 gap-10">
+    <div className="w-full bg-[#203354]  px-6 md:py-14  pb-12">
+      <div className="flex flex-col md:flex-row max-w-7xl mx-auto md:items-center justify-start md:gap-16 gap-10">
         <h1 className="text-[2rem] h-fit hidden md:block pl-2 border-l-[6px] border-[#82a9ec] w-fit md:text-[4.9rem] vertical break-words leading-[1.2] tracking-[6px] uppercase rotate-180">
         Remarks
         </h1>

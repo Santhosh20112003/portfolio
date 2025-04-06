@@ -4,11 +4,69 @@ import * as Dialog from "@radix-ui/react-dialog";
 
 function WorkExperience() {
   return (
-    <div className="px-4 md:px-6 lg:px-24 py-12">
+    <div className="px-4 md:px-6 max-w-7xl mx-auto lg:px-24 py-12">
       <h2 class="text-gray-600 text-center capitalize text-3xl md:text-4xl font-bold leading-normal lg:text-start mb-6 md:mb-10">
         My Work Experience
       </h2>
-      <ol className="items-center lg:flex">
+      <ol className="items-center mb-12 lg:flex">
+        <li className="relative mb-10 lg:mb-0">
+          <div className="flex items-center">
+            <div className="z-10 flex items-center justify-center w-10 h-10 md:w-8 md:h-8 bg-blue-100 rounded-full ring-0 ring-white shrink-0">
+              <svg
+                className="md:w-3 md:h-3 w-4 h-4 text-[#203354]"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
+              </svg>
+            </div>
+            <div className="hidden lg:flex w-full bg-gray-200 h-0.5"></div>
+          </div>
+          <div className="mt-3 sm:pe-8">
+            <Link
+              to="https://www.celcomsolutions.com/"
+              target="_blank"
+              className=""
+            >
+              <h3 className="text-lg font-semibold text-gray-900">
+              CELCOM Solutions
+              </h3>
+              <time className="block mb-2 text-sm font-normal leading-none text-gray-400">
+              February 2025 - Present
+              </time>
+            </Link>
+
+            <p className="text-base font-normal text-justify break-words text-gray-500">
+            As a Trainee – Software Engineer at Celcom, I will undergo a three-month training to learn the company’s technology stack, products, and development practices. This phase will help me build technical skills, gain hands-on experience, and align with company standards, preparing me for the role of Junior Consultant.
+            </p>
+
+            <Dialog.Root>
+              <Dialog.Trigger asChild>
+                <button className="inline-flex items-center px-4 mt-5 py-2 text-sm font-medium text-gray-700 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-[#203354] focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-[#203354]">
+                  <i className="w-3.5 h-3.5 me-2.5 fas fa-binoculars"></i>
+                  Offer Letter
+                </button>
+              </Dialog.Trigger>
+              <Dialog.Portal>
+                <Dialog.Overlay className="bg-blackA6 z-[100] data-[state=open]:animate-overlayShow fixed inset-0" />
+                <Dialog.Content className="data-[state=open]:animate-contentShow flex items-center justify-center bg-transparent z-[1000] fixed top-[50%] left-[50%] max-h-fit w-[90vw] max-w-[1000px] translate-x-[-50%] translate-y-[-50%] rounded-[6px] focus:outline-none">
+                  <img
+                    src="https://ik.imagekit.io/vituepzjm/Santech/celcomoffer?updatedAt=1743938009983"
+                    alt="Oneyes Internship Resume"
+                    className="object-contain bg-gray-200 md:bg-transparent w-[90vw]"
+                  />
+                  <Dialog.Close asChild>
+                    <button className="bg-black bg-opacity-25 px-[10px] py-[3px] rounded-full absolute top-3 right-3">
+                      <i className="text-white fas fa-xmark "></i>
+                    </button>
+                  </Dialog.Close>
+                </Dialog.Content>
+              </Dialog.Portal>
+            </Dialog.Root>
+          </div>
+        </li>
         <li className="relative mb-10 lg:mb-0">
           <div className="flex items-center">
             <div className="z-10 flex items-center justify-center w-10 h-10 md:w-8 md:h-8 bg-blue-100 rounded-full ring-0 ring-white shrink-0">
@@ -34,11 +92,11 @@ function WorkExperience() {
                 Oneyes Infotech Solutions
               </h3>
               <time className="block mb-2 text-sm font-normal leading-none text-gray-400">
-                March 2023 - Present
+                March 2023 - Janauary 2025
               </time>
             </Link>
 
-            <p className="text-base font-normal break-words text-gray-500">
+            <p className="text-base font-normal text-justify break-words text-gray-500">
               Contributed to the development of Loan Management System as an Web
               Application Development Intern at Oneyes Infotech Solutions,
               enhancing my skills in Full Stack Development.
@@ -69,6 +127,8 @@ function WorkExperience() {
             </Dialog.Root>
           </div>
         </li>
+      </ol>
+      <ol className="items-center lg:flex">
         <li className="relative mb-6 lg:mb-0">
           <div className="flex items-center">
             <div className="z-10 flex items-center justify-center w-10 h-10 md:w-8 md:h-8 bg-blue-100 rounded-full ring-0 ring-white shrink-0">
@@ -91,7 +151,7 @@ function WorkExperience() {
                 Released on March 19, 2024
               </time>
             </Link>
-            <p className="text-base font-normal text-gray-500">
+            <p className="text-base font-normal text-justify text-gray-500">
               Gained valuable practical experience in web development while
               interning at Nexcap, working on real-world projects and learning
               best practices from experienced professionals.
@@ -150,7 +210,7 @@ function WorkExperience() {
                 Released on July 15, 2023
               </time>
             </Link>
-            <p className=" md:text-base font-normal text-gray-500">
+            <p className=" md:text-base font-normal text-justify text-gray-500">
               Gained practical cybersecurity experience through a hands-on
               internship at Pantech eLearning Pvt Ltd. Developed skills in
               Basics of Cyber Security.

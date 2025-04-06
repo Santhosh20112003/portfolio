@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
-import { message } from '../common/Links';
+import { banner } from '../common/Links';
+import { Link } from 'react-router-dom';
 
 function Notificationbanner() {
     const [close, setClose] = useState();
@@ -17,9 +18,11 @@ function Notificationbanner() {
         }
     };
     return (
-        <motion.div onClick={() => { setClose(!close) }} animate={close ? hide : show} className={`text-center ${close ? 'hidden' : 'block'} break-words px-5 py-2.5 cursor-pointer bg-[#82a9ec] text-[#203353] `}>
-            <div className="lg:text-[14px] text-xs font-sans font-medium" dangerouslySetInnerHTML={{ __html: message }} />
-        </motion.div>
+        <Link to={banner.link} target='_blank' >
+            <motion.div onClick={() => { setClose(!close) }} animate={close ? hide : show} className={`text-center ${close ? 'hidden' : 'block'} break-words px-5 py-2.5 cursor-pointer bg-[#82a9ec] text-[#203353] `}>
+                <div className="lg:text-[14px] text-xs font-sans font-medium" dangerouslySetInnerHTML={{ __html: banner.message }} />
+            </motion.div>
+        </Link>
     )
 }
 

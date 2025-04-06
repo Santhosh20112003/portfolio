@@ -8,7 +8,7 @@ import "@react-pdf-viewer/core/lib/styles/index.css";
 function FutureProjects() {
   
   return (
-    <div className="pb-12 md:pb-24 px-5 md:px-12" >
+    <div className="pb-12 md:pb-24  max-w-7xl mx-auto px-5 md:px-12" >
       <h1 className="text-[#203354] text-center md:ps-4 md:border-s-4 md:border-[#203354] md:w-fit font-semibold  md:text-5xl mb-10 text-3xl leading-tight">
         Future Projects
       </h1>
@@ -29,7 +29,7 @@ function FutureProjects() {
               <h2 className="block mb-4 text-lg md:text-xl text-center md:text-start antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
                 {item.short_desc}
               </h2>
-              <p class="block mb-5 text-sm text-center md:text-start md:text-base antialiased font-normal leading-relaxed text-gray-700">
+              <p class="block mb-5 text-sm text-justify md:text-base antialiased font-normal leading-relaxed text-gray-700">
                 {item.desc}
               </p>
 

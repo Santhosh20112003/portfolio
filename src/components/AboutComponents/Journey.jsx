@@ -9,7 +9,7 @@ function Journey() {
     // document.title = "IETE - About";
   });
   return (
-    <section className="md:px-24  md:py-24 px-6 py-12">
+    <section className="md:px-24 max-w-7xl mx-auto md:py-24 px-6 py-12">
       <div className="space-y-20 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-gray-300 before:to-transparent">
         {journeyData.map((item, index) => (
           <div

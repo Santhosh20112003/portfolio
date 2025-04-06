@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function CTA() {
   return (
-    <section class="text-gray-600 bg-white pb-12 md:pb-0 md:pt-6 body-font">
+    <section class="text-gray-600 bg-white max-w-7xl mx-auto pb-12 md:pb-0 md:pt-6 body-font">
       <div class="md:pe-5 flex md:flex-row flex-col items-center justify-center">
         <div class="lg:max-w-lg lg:w-full md:w-1/2 w-fit mb-10 md:mb-0">
           <img
